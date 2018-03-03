@@ -1,0 +1,33 @@
+import { Observable } from 'rxjs/Observable';
+import { Datasource, Direction } from './interfaces/index';
+import { Settings } from './classes/settings';
+import { Viewport } from './classes/viewport';
+import { Buffer } from './classes/buffer';
+import { FetchModel } from './classes/fetch';
+import { ClipModel } from './classes/clip';
+export declare class Workflow {
+    private observer;
+    resolver: Observable<any>;
+    bindData: Function;
+    datasource: Datasource;
+    settings: Settings;
+    viewport: Viewport;
+    buffer: Buffer;
+    count: number;
+    countDone: number;
+    pending: boolean;
+    direction: Direction;
+    next: boolean;
+    fetch: FetchModel;
+    clip: ClipModel;
+    constructor(context: any);
+    reset(): void;
+    start(direction?: Direction): Promise<this>;
+    continue(): Promise<this>;
+    finalize(): void;
+    end(): void;
+    done(): void;
+    fail(error: any): void;
+    dispose(): void;
+    log(...args: any[]): void;
+}
