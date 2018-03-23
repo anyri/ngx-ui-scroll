@@ -14,7 +14,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__("./node_modules/@angular/cli/node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__("./node_modules/style-loader/lib/addStyles.js")(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -32,7 +32,14 @@ if(false) {
 
 /***/ }),
 
-/***/ "./node_modules/@angular/cli/node_modules/style-loader/lib/addStyles.js":
+/***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./demo/styles.css":
+/***/ (function(module, exports) {
+
+module.exports = "html {\n  line-height: 20px;\n}\n\nh1 {\n  margin: 3rem 0 0 0;\n}\n\nh3 {\n  cursor: pointer;\n  border-bottom: 1px solid #efefef;\n  padding-top: 3rem;\n  margin-bottom: 2rem;\n}\n\n.demo .work {\n  margin-left: 20px;\n}\n\n.demo .work .viewport {\n  width: 175px;\n  height: 100px;\n  overflow-anchor: none;\n  overflow-y: auto;\n}\n\n.demo .work .viewport-horizontal {\n  width: 175px;\n  height: 100px;\n  overflow-anchor: none;\n  overflow-x: scroll;\n  overflow-y: hidden;\n  white-space: nowrap;\n}\n\n.demo .work .viewport-horizontal div {\n  display: inline-block;\n}\n\n.demo .work .item-horizontal {\n  border: 1px solid #aaa;\n  height: 100px;\n  padding: 0 5px;\n  font-weight: bolder;\n}\n\n.demo .work .log {\n  height: 100px;\n  width: 175px;\n  overflow-y: hidden;\n  font-size: smaller;\n  line-height: 14px;\n  float: left;\n}\n\n.demo .work .log.elements {\n  padding-left: 20px;\n  width: 115px;\n}\n\n.demo .work .log.datasource {\n  padding-left: 10px;\n  width: 190px;\n}\n\n/* code styles */\n\npre.prettyprint {\n  font-size: 87.5%;\n  line-height: 125%;\n  border: 0;\n}\n\npre .kwd { font-weight: bold; color: #204a87; }\n\npre .tag { font-weight: bold; color: #204a87; }\n\npre .atn { font-weight: bold }\n\nli.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }\n\nli.L1,li.L3,li.L5,li.L7,li.L9 { }\n\n@media print {\n  pre .kwd, code .kwd { font-weight: bold; color: #204a87; }\n  pre .com, code .com { font-style: italic }\n  pre .typ, code .typ { font-weight: bold }\n  pre .tag, code .tag { font-weight: bold; color: #204a87; }\n}\n"
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/addStyles.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -88,7 +95,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__("./node_modules/@angular/cli/node_modules/style-loader/lib/urls.js");
+var	fixUrls = __webpack_require__("./node_modules/style-loader/lib/urls.js");
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -405,7 +412,7 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 
-/***/ "./node_modules/@angular/cli/node_modules/style-loader/lib/urls.js":
+/***/ "./node_modules/style-loader/lib/urls.js":
 /***/ (function(module, exports) {
 
 
@@ -498,13 +505,6 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./demo/styles.css":
-/***/ (function(module, exports) {
-
-module.exports = "* {\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  line-height: 20px;\n  margin: 0 10px;\n}\n"
 
 /***/ }),
 
