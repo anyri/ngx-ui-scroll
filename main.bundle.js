@@ -1126,21 +1126,71 @@ var calculateFlowDirection = function (viewport) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return throttle; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__debouncedRound__ = __webpack_require__("./src/component/utils/debouncedRound.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__checkDatasource__ = __webpack_require__("./src/component/utils/checkDatasource.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__flowDirection__ = __webpack_require__("./src/component/utils/flowDirection.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assignSettings__ = __webpack_require__("./src/component/utils/assignSettings.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__throttle__ = __webpack_require__("./src/component/utils/throttle.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__debouncedRound__ = __webpack_require__("./src/component/utils/debouncedRound.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__checkDatasource__ = __webpack_require__("./src/component/utils/checkDatasource.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__flowDirection__ = __webpack_require__("./src/component/utils/flowDirection.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assignSettings__ = __webpack_require__("./src/component/utils/assignSettings.ts");
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__throttle__["a"]; });
 /* unused harmony reexport debouncedRound */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__checkDatasource__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__checkDatasource__["a"]; });
 /* unused harmony reexport calculateFlowDirection */
 /* unused harmony reexport assignSettings */
 
 
 
 
-var throttle = __webpack_require__("./node_modules/lodash.throttle/index.js");
 
+
+
+
+/***/ }),
+
+/***/ "./src/component/utils/throttle.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = throttle;
+function throttle(func, wait, options) {
+    var context, args, result;
+    var timeout = null;
+    var previous = 0;
+    if (!options) {
+        options = {};
+    }
+    var later = function () {
+        previous = options.leading === false ? 0 : Date.now();
+        timeout = null;
+        result = func.apply(context, args);
+        if (!timeout) {
+            context = args = null;
+        }
+    };
+    return function () {
+        var now = Date.now();
+        if (!previous && options.leading === false) {
+            previous = now;
+        }
+        var remaining = wait - (now - previous);
+        context = this;
+        args = arguments;
+        if (remaining <= 0 || remaining > wait) {
+            if (timeout) {
+                clearTimeout(timeout);
+                timeout = null;
+            }
+            previous = now;
+            result = func.apply(context, args);
+            if (!timeout) {
+                context = args = null;
+            }
+        }
+        else if (!timeout && options.trailing !== false) {
+            timeout = setTimeout(later, remaining);
+        }
+        return result;
+    };
+}
 
 
 /***/ }),
@@ -1399,10 +1449,10 @@ var Fetch = /** @class */ (function () {
             };
             var _get = workflow.datasource.get;
             var _getResult = _get(workflow.fetch[direction].startIndex, workflow.settings.bufferSize, success, reject);
-            if (_getResult && typeof _getResult.then === 'function') {
+            if (_getResult && typeof _getResult.then === 'function') { // DatasourceGetPromise
                 _getResult.then(success, reject);
             }
-            else if (_getResult && typeof _getResult.subscribe === 'function') {
+            else if (_getResult && typeof _getResult.subscribe === 'function') { // DatasourceGetObservable
                 _getResult.subscribe(success, reject);
             }
         });
@@ -1433,7 +1483,7 @@ var ProcessFetch = /** @class */ (function () {
     };
     ProcessFetch.runByDirection = function (workflow, direction) {
         var fetch = workflow.fetch[direction];
-        if (!fetch.newItemsData) {
+        if (!fetch.newItemsData) { // no fetch
             return;
         }
         var eof = direction === __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].forward ? 'eof' : 'bof';
@@ -1441,7 +1491,7 @@ var ProcessFetch = /** @class */ (function () {
         if (direction === __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].backward && workflow.buffer.bof) {
             fetch.startIndex += workflow.settings.bufferSize - fetch.newItemsData.length;
         }
-        if (!fetch.newItemsData.length) {
+        if (!fetch.newItemsData.length) { // empty result
             return;
         }
         fetch.items = fetch.newItemsData.map(function (item, index) {
@@ -1496,7 +1546,7 @@ var Render = /** @class */ (function () {
                     items[j].element = nodes[i];
                 }
             }
-            if (!items[j].element) {
+            if (!items[j].element) { // todo: do we really need this check?
                 return new Error('Can not associate item with element');
             }
         }
