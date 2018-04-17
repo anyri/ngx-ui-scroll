@@ -369,7 +369,7 @@ var DemoDifferentHeightsComponent = /** @class */ (function () {
             id: "different-heights"
         };
         this.sources = {
-            datasource: "datasource: Datasource = {\n  get: (index, count, success) => {\n    const MIN = 1, MAX = 75;\n    const data = [];\n    const start = Math.max(MIN, index);\n    const end = Math.min(index + count - 1, MAX);\n    if (start <= end) {\n      for (let i = index; i <= index + count - 1; i++) {\n        data.push({ id: i, text: 'item #' + i, height: 20 + i });\n      }\n    }\n    success(data);\n  }\n}",
+            datasource: "datasource: Datasource = {\n  get: (index, count, success) => {\n    const MIN = 1, MAX = 75;\n    const data = [];\n    const start = Math.max(MIN, index);\n    const end = Math.min(index + count - 1, MAX);\n    if (start <= end) {\n      for (let i = start; i <= end; i++) {\n        data.push({ id: i, text: 'item #' + i, height: 20 + i });\n      }\n    }\n    success(data);\n  }\n}",
             template: "<div class=\"viewport\">\n  <div *uiScroll=\"let item of datasource\">\n    <div [style.height]=\"item.height + 'px'\">\n      <div class=\"item\">{{item.text}}</div>\n    </div>\n  </div>\n</div>",
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
