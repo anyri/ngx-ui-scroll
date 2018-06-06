@@ -22,26 +22,40 @@ webpackEmptyAsyncContext.id = "./demo/$$_lazy_route_resource lazy recursive";
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__samples_common_component__ = __webpack_require__("./demo/app/samples/common.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__samples_adapter_component__ = __webpack_require__("./demo/app/samples/adapter.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__samples_window_component__ = __webpack_require__("./demo/app/samples/window.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__samples_test_component__ = __webpack_require__("./demo/app/samples/test.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__samples_common_component__ = __webpack_require__("./demo/app/samples/common.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__samples_adapter_component__ = __webpack_require__("./demo/app/samples/adapter.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__samples_window_component__ = __webpack_require__("./demo/app/samples/window.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__samples_test_component__ = __webpack_require__("./demo/app/samples/test.component.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 
 
 
 
 var routes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_1__samples_common_component__["a" /* CommonComponent */] },
-    { path: 'adapter', component: __WEBPACK_IMPORTED_MODULE_2__samples_adapter_component__["a" /* AdapterComponent */] },
-    { path: 'window', component: __WEBPACK_IMPORTED_MODULE_3__samples_window_component__["a" /* WindowComponent */] },
-    { path: 'test', component: __WEBPACK_IMPORTED_MODULE_4__samples_test_component__["a" /* TestComponent */] },
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__samples_common_component__["a" /* CommonComponent */] },
+    { path: 'adapter', component: __WEBPACK_IMPORTED_MODULE_3__samples_adapter_component__["a" /* AdapterComponent */] },
+    { path: 'window', component: __WEBPACK_IMPORTED_MODULE_4__samples_window_component__["a" /* WindowComponent */] },
+    { path: 'test', component: __WEBPACK_IMPORTED_MODULE_5__samples_test_component__["a" /* TestComponent */] },
     { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
+    AppRoutingModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* RouterModule */].forRoot(routes, { useHash: true })],
+            exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* RouterModule */]]
+        })
+    ], AppRoutingModule);
     return AppRoutingModule;
 }());
 
@@ -49,42 +63,10 @@ var AppRoutingModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/app.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/app.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* unused harmony export RenderType_AppComponent */
-/* unused harmony export View_AppComponent_0 */
-/* unused harmony export View_AppComponent_Host_0 */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponentNgFactory; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_nav_component_ngfactory__ = __webpack_require__("./demo/app/shared/nav.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_nav_component__ = __webpack_require__("./demo/app/shared/nav.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__("./demo/app/app.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-
-var styles_AppComponent = [];
-var RenderType_AppComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_AppComponent, data: {} });
-
-function View_AppComponent_1(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 13, "div", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 1, "app-nav", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_nav_component_ngfactory__["b" /* View_NavComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_nav_component_ngfactory__["a" /* RenderType_NavComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](3, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_nav_component__["a" /* NavComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 7, "div", [["class", "container mb-5"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](7, 0, null, null, 1, "h1", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Angular UI Scroll Demo"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](11, 212992, null, 0, __WEBPACK_IMPORTED_MODULE_3__angular_router__["o" /* RouterOutlet */], [__WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ChildrenOutletContexts */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */], [8, null], __WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* ChangeDetectorRef */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { _ck(_v, 11, 0); }, null); }
-function View_AppComponent_2(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](3, 212992, null, 0, __WEBPACK_IMPORTED_MODULE_3__angular_router__["o" /* RouterOutlet */], [__WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ChildrenOutletContexts */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */], [8, null], __WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* ChangeDetectorRef */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { _ck(_v, 3, 0); }, null); }
-function View_AppComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_AppComponent_1)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_4__angular_common__["j" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_AppComponent_2)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](4, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_4__angular_common__["j" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.hasLayout; _ck(_v, 1, 0, currVal_0); var currVal_1 = !_co.hasLayout; _ck(_v, 4, 0, currVal_1); }, null); }
-function View_AppComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 4374528, null, 0, __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */], [__WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["l" /* Router */]], null, null)], null, null); }
-var AppComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-root", __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */], View_AppComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<div *ngIf=\"hasLayout\">\n  <app-nav></app-nav>\n\n  <div class=\"container mb-5\">\n\n    <h1>Angular UI Scroll Demo</h1>\n\n    <router-outlet></router-outlet>\n\n  </div>\n</div>\n\n<div *ngIf=\"!hasLayout\" class=\"no-layout\">\n  <router-outlet></router-outlet>\n</div>\n\n"
 
 /***/ }),
 
@@ -96,6 +78,15 @@ var AppComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /*
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__("./node_modules/rxjs/_esm5/operators.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 
@@ -106,7 +97,7 @@ var AppComponent = /** @class */ (function () {
         this.router = router;
         this.hasLayout = true;
         this.subscriptions = [];
-        this.subscriptions.push(router.events.pipe(Object(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__["a" /* filter */])(function (event) { return event instanceof __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* NavigationStart */]; })).subscribe(function (event) {
+        this.subscriptions.push(router.events.pipe(Object(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__["a" /* filter */])(function (event) { return event instanceof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* NavigationStart */]; })).subscribe(function (event) {
             _this.hasLayout = !(event.url === '/window' || event.url === '/test');
         }));
     }
@@ -128,67 +119,16 @@ var AppComponent = /** @class */ (function () {
     AppComponent.prototype.ngOnDestroy = function () {
         this.subscriptions.forEach(function (subscription) { return subscription.unsubscribe(); });
     };
+    AppComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-root',
+            template: __webpack_require__("./demo/app/app.component.html")
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */]])
+    ], AppComponent);
     return AppComponent;
 }());
-
-
-
-/***/ }),
-
-/***/ "./demo/app/app.module.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModuleNgFactory; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__("./demo/app/app.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__("./demo/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_ui_scroll_component_ngfactory__ = __webpack_require__("./src/ui-scroll.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__samples_common_component_ngfactory__ = __webpack_require__("./demo/app/samples/common.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__samples_adapter_component_ngfactory__ = __webpack_require__("./demo/app/samples/adapter.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__samples_window_component_ngfactory__ = __webpack_require__("./demo/app/samples/window.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__samples_test_component_ngfactory__ = __webpack_require__("./demo/app/samples/test.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_component_ngfactory__ = __webpack_require__("./demo/app/app.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ngx_bootstrap_tabs_tabset_config__ = __webpack_require__("./node_modules/ngx-bootstrap/tabs/tabset.config.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ngx_bootstrap_tabs_tabs_module__ = __webpack_require__("./node_modules/ngx-bootstrap/tabs/tabs.module.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_ui_scroll_module__ = __webpack_require__("./src/ui-scroll.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__samples_common_component__ = __webpack_require__("./demo/app/samples/common.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__samples_adapter_component__ = __webpack_require__("./demo/app/samples/adapter.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__samples_window_component__ = __webpack_require__("./demo/app/samples/window.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__samples_test_component__ = __webpack_require__("./demo/app/samples/test.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__app_routing_module__ = __webpack_require__("./demo/app/app-routing.module.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var AppModuleNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ɵcmf */](__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */], [__WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */]], function (_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵmod */]([__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ɵCodegenComponentFactoryResolver */], [[8, [__WEBPACK_IMPORTED_MODULE_3__src_ui_scroll_component_ngfactory__["a" /* UiScrollComponentNgFactory */], __WEBPACK_IMPORTED_MODULE_4__samples_common_component_ngfactory__["a" /* CommonComponentNgFactory */], __WEBPACK_IMPORTED_MODULE_5__samples_adapter_component_ngfactory__["a" /* AdapterComponentNgFactory */], __WEBPACK_IMPORTED_MODULE_6__samples_window_component_ngfactory__["a" /* WindowComponentNgFactory */], __WEBPACK_IMPORTED_MODULE_7__samples_test_component_ngfactory__["a" /* TestComponentNgFactory */], __WEBPACK_IMPORTED_MODULE_8__app_component_ngfactory__["a" /* AppComponentNgFactory */]]], [3, __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */]], __WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* NgModuleRef */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* LOCALE_ID */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_33" /* ɵq */], [[3, __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* LOCALE_ID */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_9__angular_common__["l" /* NgLocalization */], __WEBPACK_IMPORTED_MODULE_9__angular_common__["k" /* NgLocaleLocalization */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* LOCALE_ID */], [2, __WEBPACK_IMPORTED_MODULE_9__angular_common__["q" /* ɵa */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* APP_ID */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_18" /* ɵi */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* IterableDiffers */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵn */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* KeyValueDiffers */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_29" /* ɵo */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["b" /* DomSanitizer */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["q" /* ɵe */], [__WEBPACK_IMPORTED_MODULE_9__angular_common__["c" /* DOCUMENT */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](6144, __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* Sanitizer */], null, [__WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["b" /* DomSanitizer */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["e" /* HAMMER_GESTURE_CONFIG */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["f" /* HammerGestureConfig */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["c" /* EVENT_MANAGER_PLUGINS */], function (p0_0, p0_1, p1_0, p2_0, p2_1) { return [new __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["j" /* ɵDomEventsPlugin */](p0_0, p0_1), new __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["n" /* ɵKeyEventsPlugin */](p1_0), new __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["m" /* ɵHammerGesturesPlugin */](p2_0, p2_1)]; }, [__WEBPACK_IMPORTED_MODULE_9__angular_common__["c" /* DOCUMENT */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* NgZone */], __WEBPACK_IMPORTED_MODULE_9__angular_common__["c" /* DOCUMENT */], __WEBPACK_IMPORTED_MODULE_9__angular_common__["c" /* DOCUMENT */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["e" /* HAMMER_GESTURE_CONFIG */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["d" /* EventManager */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["d" /* EventManager */], [__WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["c" /* EVENT_MANAGER_PLUGINS */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* NgZone */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](135680, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["l" /* ɵDomSharedStylesHost */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["l" /* ɵDomSharedStylesHost */], [__WEBPACK_IMPORTED_MODULE_9__angular_common__["c" /* DOCUMENT */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["k" /* ɵDomRendererFactory2 */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["k" /* ɵDomRendererFactory2 */], [__WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["d" /* EventManager */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["l" /* ɵDomSharedStylesHost */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](6144, __WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* RendererFactory2 */], null, [__WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["k" /* ɵDomRendererFactory2 */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](6144, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["o" /* ɵSharedStylesHost */], null, [__WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["l" /* ɵDomSharedStylesHost */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* Testability */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* Testability */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* NgZone */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["g" /* Meta */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["g" /* Meta */], [__WEBPACK_IMPORTED_MODULE_9__angular_common__["c" /* DOCUMENT */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["h" /* Title */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["h" /* Title */], [__WEBPACK_IMPORTED_MODULE_9__angular_common__["c" /* DOCUMENT */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_11__angular_forms__["i" /* ɵi */], __WEBPACK_IMPORTED_MODULE_11__angular_forms__["i" /* ɵi */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_12__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["x" /* ɵf */], [__WEBPACK_IMPORTED_MODULE_12__angular_router__["l" /* Router */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_12__angular_router__["e" /* NoPreloading */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["e" /* NoPreloading */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](6144, __WEBPACK_IMPORTED_MODULE_12__angular_router__["g" /* PreloadingStrategy */], null, [__WEBPACK_IMPORTED_MODULE_12__angular_router__["e" /* NoPreloading */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](135680, __WEBPACK_IMPORTED_MODULE_12__angular_router__["p" /* RouterPreloader */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["p" /* RouterPreloader */], [__WEBPACK_IMPORTED_MODULE_12__angular_router__["l" /* Router */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* NgModuleFactoryLoader */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Compiler */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* Injector */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["g" /* PreloadingStrategy */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_12__angular_router__["f" /* PreloadAllModules */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["f" /* PreloadAllModules */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_12__angular_router__["i" /* ROUTER_INITIALIZER */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["A" /* ɵi */], [__WEBPACK_IMPORTED_MODULE_12__angular_router__["y" /* ɵg */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](5120, __WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* APP_BOOTSTRAP_LISTENER */], function (p0_0) { return [p0_0]; }, [__WEBPACK_IMPORTED_MODULE_12__angular_router__["i" /* ROUTER_INITIALIZER */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](4608, __WEBPACK_IMPORTED_MODULE_13_ngx_bootstrap_tabs_tabset_config__["a" /* TabsetConfig */], __WEBPACK_IMPORTED_MODULE_13_ngx_bootstrap_tabs_tabset_config__["a" /* TabsetConfig */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_9__angular_common__["b" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_9__angular_common__["b" /* CommonModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ErrorHandler */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["p" /* ɵa */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* NgProbeToken */], function () { return [__WEBPACK_IMPORTED_MODULE_12__angular_router__["t" /* ɵb */]()]; }, []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_12__angular_router__["y" /* ɵg */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["y" /* ɵg */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* Injector */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* APP_INITIALIZER */], function (p0_0, p1_0) { return [__WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["s" /* ɵh */](p0_0), __WEBPACK_IMPORTED_MODULE_12__angular_router__["z" /* ɵh */](p1_0)]; }, [[2, __WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* NgProbeToken */]], __WEBPACK_IMPORTED_MODULE_12__angular_router__["y" /* ɵg */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* ApplicationInitStatus */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* ApplicationInitStatus */], [[2, __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* APP_INITIALIZER */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](131584, __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ApplicationRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ApplicationRef */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* NgZone */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* ɵConsole */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* Injector */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ErrorHandler */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* ApplicationInitStatus */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* ApplicationModule */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* ApplicationModule */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ApplicationRef */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["a" /* BrowserModule */], __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["a" /* BrowserModule */], [[3, __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["a" /* BrowserModule */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_11__angular_forms__["h" /* ɵba */], __WEBPACK_IMPORTED_MODULE_11__angular_forms__["h" /* ɵba */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_11__angular_forms__["c" /* FormsModule */], __WEBPACK_IMPORTED_MODULE_11__angular_forms__["c" /* FormsModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_14_ngx_bootstrap_tabs_tabs_module__["a" /* TabsModule */], __WEBPACK_IMPORTED_MODULE_14_ngx_bootstrap_tabs_tabs_module__["a" /* TabsModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_15__src_ui_scroll_module__["a" /* UiScrollModule */], __WEBPACK_IMPORTED_MODULE_15__src_ui_scroll_module__["a" /* UiScrollModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_12__angular_router__["s" /* ɵa */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["v" /* ɵd */], [[3, __WEBPACK_IMPORTED_MODULE_12__angular_router__["l" /* Router */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_12__angular_router__["r" /* UrlSerializer */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["c" /* DefaultUrlSerializer */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_12__angular_router__["b" /* ChildrenOutletContexts */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["b" /* ChildrenOutletContexts */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](256, __WEBPACK_IMPORTED_MODULE_12__angular_router__["h" /* ROUTER_CONFIGURATION */], { useHash: true }, []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_9__angular_common__["g" /* LocationStrategy */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["u" /* ɵc */], [__WEBPACK_IMPORTED_MODULE_9__angular_common__["o" /* PlatformLocation */], [2, __WEBPACK_IMPORTED_MODULE_9__angular_common__["a" /* APP_BASE_HREF */]], __WEBPACK_IMPORTED_MODULE_12__angular_router__["h" /* ROUTER_CONFIGURATION */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_9__angular_common__["f" /* Location */], __WEBPACK_IMPORTED_MODULE_9__angular_common__["f" /* Location */], [__WEBPACK_IMPORTED_MODULE_9__angular_common__["g" /* LocationStrategy */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Compiler */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Compiler */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* NgModuleFactoryLoader */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["U" /* SystemJsNgModuleLoader */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Compiler */], [2, __WEBPACK_IMPORTED_MODULE_0__angular_core__["V" /* SystemJsNgModuleLoaderConfig */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_12__angular_router__["j" /* ROUTES */], function () { return [[{ path: "", component: __WEBPACK_IMPORTED_MODULE_16__samples_common_component__["a" /* CommonComponent */] }, { path: "adapter", component: __WEBPACK_IMPORTED_MODULE_17__samples_adapter_component__["a" /* AdapterComponent */] }, { path: "window", component: __WEBPACK_IMPORTED_MODULE_18__samples_window_component__["a" /* WindowComponent */] }, { path: "test", component: __WEBPACK_IMPORTED_MODULE_19__samples_test_component__["a" /* TestComponent */] }, { path: "**", redirectTo: "", pathMatch: "full" }]]; }, []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](1024, __WEBPACK_IMPORTED_MODULE_12__angular_router__["l" /* Router */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["w" /* ɵe */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ApplicationRef */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["r" /* UrlSerializer */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["b" /* ChildrenOutletContexts */], __WEBPACK_IMPORTED_MODULE_9__angular_common__["f" /* Location */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* Injector */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* NgModuleFactoryLoader */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Compiler */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["j" /* ROUTES */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["h" /* ROUTER_CONFIGURATION */], [2, __WEBPACK_IMPORTED_MODULE_12__angular_router__["q" /* UrlHandlingStrategy */]], [2, __WEBPACK_IMPORTED_MODULE_12__angular_router__["k" /* RouteReuseStrategy */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_12__angular_router__["n" /* RouterModule */], __WEBPACK_IMPORTED_MODULE_12__angular_router__["n" /* RouterModule */], [[2, __WEBPACK_IMPORTED_MODULE_12__angular_router__["s" /* ɵa */]], [2, __WEBPACK_IMPORTED_MODULE_12__angular_router__["l" /* Router */]]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_20__app_routing_module__["a" /* AppRoutingModule */], __WEBPACK_IMPORTED_MODULE_20__app_routing_module__["a" /* AppRoutingModule */], []), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵmpd */](512, __WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */], __WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */], [])]); });
 
 
 
@@ -199,9 +139,93 @@ var AppModuleNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ɵ
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ngx_bootstrap__ = __webpack_require__("./node_modules/ngx-bootstrap/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__public_api__ = __webpack_require__("./public_api.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__("./demo/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_nav_component__ = __webpack_require__("./demo/app/shared/nav.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__samples_common_component__ = __webpack_require__("./demo/app/samples/common.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__samples_adapter_component__ = __webpack_require__("./demo/app/samples/adapter.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__samples_common_basic_component__ = __webpack_require__("./demo/app/samples/common/basic.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__samples_common_buffer_size_component__ = __webpack_require__("./demo/app/samples/common/buffer-size.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__samples_common_padding_component__ = __webpack_require__("./demo/app/samples/common/padding.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__samples_common_start_index_component__ = __webpack_require__("./demo/app/samples/common/start-index.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__samples_common_infinite_component__ = __webpack_require__("./demo/app/samples/common/infinite.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__samples_common_horizontal_component__ = __webpack_require__("./demo/app/samples/common/horizontal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__samples_common_different_heights_component__ = __webpack_require__("./demo/app/samples/common/different-heights.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__samples_common_window_viewport_component__ = __webpack_require__("./demo/app/samples/common/window-viewport.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__samples_adapter_reload_component__ = __webpack_require__("./demo/app/samples/adapter/reload.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__samples_adapter_is_loading_component__ = __webpack_require__("./demo/app/samples/adapter/is-loading.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__samples_window_component__ = __webpack_require__("./demo/app/samples/window.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__samples_test_component__ = __webpack_require__("./demo/app/samples/test.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__app_routing_module__ = __webpack_require__("./demo/app/app-routing.module.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+ // from 'ngx-ui-scroll';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_6__shared_nav_component__["a" /* NavComponent */],
+                __WEBPACK_IMPORTED_MODULE_7__shared_demo_component__["a" /* DemoComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__samples_common_component__["a" /* CommonComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__samples_adapter_component__["a" /* AdapterComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__samples_common_basic_component__["a" /* DemoBasicComponent */],
+                __WEBPACK_IMPORTED_MODULE_11__samples_common_buffer_size_component__["a" /* DemoBufferSizeComponent */],
+                __WEBPACK_IMPORTED_MODULE_12__samples_common_padding_component__["a" /* DemoPaddingComponent */],
+                __WEBPACK_IMPORTED_MODULE_13__samples_common_start_index_component__["a" /* DemoStartIndexComponent */],
+                __WEBPACK_IMPORTED_MODULE_14__samples_common_infinite_component__["a" /* DemoInfiniteComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__samples_common_horizontal_component__["a" /* DemoHorizontalComponent */],
+                __WEBPACK_IMPORTED_MODULE_16__samples_common_different_heights_component__["a" /* DemoDifferentHeightsComponent */],
+                __WEBPACK_IMPORTED_MODULE_17__samples_common_window_viewport_component__["a" /* DemoWindowViewportComponent */],
+                __WEBPACK_IMPORTED_MODULE_18__samples_adapter_reload_component__["a" /* DemoReloadComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__samples_adapter_is_loading_component__["a" /* DemoIsLoadingComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__samples_window_component__["a" /* WindowComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__samples_test_component__["a" /* TestComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__samples_test_component__["b" /* TestInnerComponent */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_3_ngx_bootstrap__["a" /* TabsModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_4__public_api__["b" /* UiScrollModule */],
+                __WEBPACK_IMPORTED_MODULE_22__app_routing_module__["a" /* AppRoutingModule */]
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
+        })
+    ], AppModule);
     return AppModule;
 }());
 
@@ -209,40 +233,10 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/adapter.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/adapter.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* unused harmony export RenderType_AdapterComponent */
-/* unused harmony export View_AdapterComponent_0 */
-/* unused harmony export View_AdapterComponent_Host_0 */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdapterComponentNgFactory; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__adapter_reload_component_ngfactory__ = __webpack_require__("./demo/app/samples/adapter/reload.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__adapter_reload_component__ = __webpack_require__("./demo/app/samples/adapter/reload.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__adapter_is_loading_component_ngfactory__ = __webpack_require__("./demo/app/samples/adapter/is-loading.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__adapter_is_loading_component__ = __webpack_require__("./demo/app/samples/adapter/is-loading.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__adapter_component__ = __webpack_require__("./demo/app/samples/adapter.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-
-var styles_AdapterComponent = [];
-var RenderType_AdapterComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_AdapterComponent, data: {} });
-
-function View_AdapterComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-reload", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__adapter_reload_component_ngfactory__["b" /* View_DemoReloadComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__adapter_reload_component_ngfactory__["a" /* RenderType_DemoReloadComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__adapter_reload_component__["a" /* DemoReloadComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, null, 1, "app-demo-is-loading", [], null, null, null, __WEBPACK_IMPORTED_MODULE_3__adapter_is_loading_component_ngfactory__["b" /* View_DemoIsLoadingComponent_0 */], __WEBPACK_IMPORTED_MODULE_3__adapter_is_loading_component_ngfactory__["a" /* RenderType_DemoIsLoadingComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](4, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_4__adapter_is_loading_component__["a" /* DemoIsLoadingComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], null, null); }
-function View_AdapterComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-samples-adapter", [], null, null, null, View_AdapterComponent_0, RenderType_AdapterComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_5__adapter_component__["a" /* AdapterComponent */], [], null, null)], null, null); }
-var AdapterComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-samples-adapter", __WEBPACK_IMPORTED_MODULE_5__adapter_component__["a" /* AdapterComponent */], View_AdapterComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo-reload></app-demo-reload>\n<app-demo-is-loading></app-demo-is-loading>\n"
 
 /***/ }),
 
@@ -251,9 +245,27 @@ var AdapterComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdapterComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
 var AdapterComponent = /** @class */ (function () {
     function AdapterComponent() {
     }
+    AdapterComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-samples-adapter',
+            template: __webpack_require__("./demo/app/samples/adapter.component.html")
+        }),
+        __metadata("design:paramtypes", [])
+    ], AdapterComponent);
     return AdapterComponent;
 }());
 
@@ -261,36 +273,10 @@ var AdapterComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/adapter/is-loading.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/adapter/is-loading.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoIsLoadingComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoIsLoadingComponent_0;
-/* unused harmony export View_DemoIsLoadingComponent_Host_0 */
-/* unused harmony export DemoIsLoadingComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__is_loading_component__ = __webpack_require__("./demo/app/samples/adapter/is-loading.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_DemoIsLoadingComponent = [];
-var RenderType_DemoIsLoadingComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoIsLoadingComponent, data: {} });
-
-function View_DemoIsLoadingComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 97, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 0, 1, "div", [["actions", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](4, null, ["\n    The uiScroll is ", ".\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](6, 0, null, 1, 90, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](8, 0, null, null, 19, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      The "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll Adapter"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" has some read-only properties which could be used to get knowledge of the\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](13, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" state. The first property is "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Adapter.isLoading"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [". It is a boolean value\n      indicating whether there are any pending load requests. So, "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](19, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["datasource.adapter.isLoading = true"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      means that the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](22, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" is working right now and the viewport will be updated soon. 125ms delay\n      was added to the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](25, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource.get"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" implementation in this sample.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](29, 0, null, null, 22, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      In these demos the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](31, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" is being instantiated via operator "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](34, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["new"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [". The main purpose is\n      to protect "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](37, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Adapter"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" methods/properties from too early calls. The augmentation of the\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](40, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" object occurs during the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](43, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" instantiating, so providing the object\n      initializer into the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](46, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["*uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" directive ("])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](49, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["datasource: IDatasource = { get: ... }"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [")\n      may lead to problems. For example\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](53, 0, null, null, 21, "ul", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](55, 0, null, null, 7, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](57, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["TypeError: Cannot read property 'reload' of undefined"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" if you would try to call\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](60, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["datasource.adapter.reload()"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" method on the App component's constructor;\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](64, 0, null, null, 9, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](66, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["ERROR TypeError: Cannot read property 'isLoading' of undefined"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" if you would try to use\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](69, 0, null, null, 3, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["{"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["{datasource.adapter.isLoading}"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["}"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" in the App component's\n        template.\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](76, 0, null, null, 19, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      Of course the problem could be avoided by writing something like "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](78, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["datasource.adapter &&\n      datasource.adapter.isLoading"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [", but instantiating the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](81, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" object via operator "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](84, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["new"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      solves the issue by immediately setting up the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](87, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Adapter mock object"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" on the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](90, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource's"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      constructor. It defines the adapter property and null-returning stub methods on it. The "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](93, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      will override this adapter property after it is integrated to the App component.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, function (_ck, _v) { var _co = _v.component; var currVal_3 = (_co.datasource.adapter.isLoading ? "loading" : "relaxing"); _ck(_v, 4, 0, currVal_3); }); }
-function View_DemoIsLoadingComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-is-loading", [], null, null, null, View_DemoIsLoadingComponent_0, RenderType_DemoIsLoadingComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__is_loading_component__["a" /* DemoIsLoadingComponent */], [], null, null)], null, null); }
-var DemoIsLoadingComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-is-loading", __WEBPACK_IMPORTED_MODULE_3__is_loading_component__["a" /* DemoIsLoadingComponent */], View_DemoIsLoadingComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\n  [datasource]=\"datasource\"\n  [context]=\"demoContext\"\n  [sources]=\"sources\"\n>\n  <div actions>\n    The uiScroll is {{datasource.adapter.isLoading ? 'loading': 'relaxing'}}.\n  </div>\n  <div description>\n    <p>\n      The <em>uiScroll Adapter</em> has some read-only properties which could be used to get knowledge of the\n      <em>uiScroll</em> state. The first property is <em>Adapter.isLoading</em>. It is a boolean value\n      indicating whether there are any pending load requests. So, <em>datasource.adapter.isLoading = true</em>\n      means that the <em>uiScroll</em> is working right now and the viewport will be updated soon. 125ms delay\n      was added to the <em>Datasource.get</em> implementation in this sample.\n    </p>\n    <p>\n      In these demos the <em>Datasource</em> is being instantiated via operator <em>new</em>. The main purpose is\n      to protect <em>Adapter</em> methods/properties from too early calls. The augmentation of the\n      <em>Datasource</em> object occurs during the <em>uiScroll</em> instantiating, so providing the object\n      initializer into the <em>*uiScroll</em> directive (<em>datasource: IDatasource = &#123; get: ... &#125;</em>)\n      may lead to problems. For example\n    </p>\n    <ul>\n      <li>\n        <em>TypeError: Cannot read property 'reload' of undefined</em> if you would try to call\n        <em>datasource.adapter.reload()</em> method on the App component's constructor;\n      </li>\n      <li>\n        <em>ERROR TypeError: Cannot read property 'isLoading' of undefined</em> if you would try to use\n        <em>&#123;<!---->&#123;datasource.adapter.isLoading&#125;<!---->&#125;</em> in the App component's\n        template.\n      </li>\n    </ul>\n    <p>\n      Of course the problem could be avoided by writing something like <em>datasource.adapter &&\n      datasource.adapter.isLoading</em>, but instantiating the <em>Datasource</em> object via operator <em>new</em>\n      solves the issue by immediately setting up the <em>Adapter mock object</em> on the <em>Datasource's</em>\n      constructor. It defines the adapter property and null-returning stub methods on it. The <em>uiScroll</em>\n      will override this adapter property after it is integrated to the App component.\n    </p>\n  </div>\n</app-demo>\n"
 
 /***/ }),
 
@@ -299,8 +285,16 @@ var DemoIsLoadingComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core_
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoIsLoadingComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__public_api__ = __webpack_require__("./public_api.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__public_api__ = __webpack_require__("./public_api.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
  // from 'ngx-ui-scroll';
 var DemoIsLoadingComponent = /** @class */ (function () {
@@ -313,15 +307,15 @@ var DemoIsLoadingComponent = /** @class */ (function () {
             count: 0,
             log: ''
         };
-        this.datasource = new __WEBPACK_IMPORTED_MODULE_1__public_api__["a" /* Datasource */]({
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext, 125)
+        this.datasource = new __WEBPACK_IMPORTED_MODULE_2__public_api__["a" /* Datasource */]({
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext, 125)
         });
-        this.reloadIndex = 1;
         this.sources = {
-            datasource: "datasource = new Datasource ({\n  get: (index, count, success) => {\n    const data = [];\n    for (let i = index; i <= index + count - 1; i++) {\n      data.push({ id: i, text: 'item #' + i });\n    }\n    setTimeout(() => success(data), 125);\n  } \n});",
+            datasource: "datasource = new Datasource ({\n  get: (index, count, success) => {\n    const data = [];\n    for (let i = index; i <= index + count - 1; i++) {\n      data.push({ id: i, text: 'item #' + i });\n    }\n    setTimeout(() => success(data), 125);\n  }\n});",
             template: "The uiScroll is {{datasource.adapter.isLoading ? 'loading': 'relaxing'}}.\n\n<div class=\"viewport\">\n  <div *uiScroll=\"let item of datasource\">\n    <div class=\"item\">{{item.text}}</div>\n  </div>\n</div>",
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
+        this.reloadIndex = 1;
     }
     DemoIsLoadingComponent.prototype.onInputChanged = function (target) {
         var value = parseInt(target.value, 10);
@@ -336,6 +330,12 @@ var DemoIsLoadingComponent = /** @class */ (function () {
         this.demoContext.log = '';
         this.datasource.adapter.reload(this.reloadIndex);
     };
+    DemoIsLoadingComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-is-loading',
+            template: __webpack_require__("./demo/app/samples/adapter/is-loading.component.html")
+        })
+    ], DemoIsLoadingComponent);
     return DemoIsLoadingComponent;
 }());
 
@@ -343,56 +343,10 @@ var DemoIsLoadingComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/adapter/reload.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/adapter/reload.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoReloadComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoReloadComponent_0;
-/* unused harmony export View_DemoReloadComponent_Host_0 */
-/* unused harmony export DemoReloadComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__reload_component__ = __webpack_require__("./demo/app/samples/adapter/reload.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-var styles_DemoReloadComponent = [];
-var RenderType_DemoReloadComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoReloadComponent, data: {} });
-
-function View_DemoReloadComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 57, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 0, 11, "div", [["actions", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.doReload() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Reload"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    \u00A0 by index \u00A0\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](8, 0, null, null, 5, "input", [["size", "2"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "change"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 9)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 9).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 9)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 9)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("change" === en)) {
-        var pd_4 = (_co.onInputChanged($event.target) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](9, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* DefaultValueAccessor */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Renderer2 */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ElementRef */], [2, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* COMPOSITION_BUFFER_MODE */]]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_32" /* ɵprd */](1024, null, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["d" /* NG_VALUE_ACCESSOR */], function (p0_0) { return [p0_0]; }, [__WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* DefaultValueAccessor */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](11, 671744, null, 0, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["g" /* NgModel */], [[8, null], [8, null], [8, null], [2, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["d" /* NG_VALUE_ACCESSOR */]]], { model: [0, "model"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_32" /* ɵprd */](2048, null, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["e" /* NgControl */], null, [__WEBPACK_IMPORTED_MODULE_3__angular_forms__["g" /* NgModel */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](13, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* NgControlStatus */], [__WEBPACK_IMPORTED_MODULE_3__angular_forms__["e" /* NgControl */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, 1, 40, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](18, 0, null, null, 13, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      The "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](20, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" augments the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](23, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" object passed from the outside during instantiating\n      to provide an API to manipulate and assess the scroller. This API is accessible via special "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](26, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Adapter"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      object. Currently it has only one method that allows you to reload the scroller:\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](29, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Adapter.reload(index)"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [". It resets the items buffer, resets the viewport params and starts\n      fetching items\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](33, 0, null, null, 22, "ul", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](35, 0, null, null, 7, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" from "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](37, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["index"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" position (if "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](40, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["reload"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" is called with parameter)"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](44, 0, null, null, 7, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" from "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](46, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["settings.startIndex"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" position (if "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](49, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["startIndex"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" setting is set)"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](53, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" from the default position which is 1 (if neither setting nor parameter is present)"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); var currVal_10 = _co.reloadIndex; _ck(_v, 11, 0, currVal_10); }, function (_ck, _v) { var currVal_3 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 13).ngClassUntouched; var currVal_4 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 13).ngClassTouched; var currVal_5 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 13).ngClassPristine; var currVal_6 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 13).ngClassDirty; var currVal_7 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 13).ngClassValid; var currVal_8 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 13).ngClassInvalid; var currVal_9 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 13).ngClassPending; _ck(_v, 8, 0, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9); }); }
-function View_DemoReloadComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-reload", [], null, null, null, View_DemoReloadComponent_0, RenderType_DemoReloadComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_4__reload_component__["a" /* DemoReloadComponent */], [], null, null)], null, null); }
-var DemoReloadComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-reload", __WEBPACK_IMPORTED_MODULE_4__reload_component__["a" /* DemoReloadComponent */], View_DemoReloadComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\n  [datasource]=\"datasource\"\n  [context]=\"demoContext\"\n  [sources]=\"sources\"\n>\n  <div actions>\n    <button (click)=\"doReload()\">Reload</button>\n    &nbsp; by index &nbsp;\n    <input [ngModel]=\"reloadIndex\" (change)=\"onInputChanged($event.target)\" size=\"2\">\n  </div>\n\n  <div description>\n    <p>\n      The <em>uiScroll</em> augments the <em>Datasource</em> object passed from the outside during instantiating\n      to provide an API to manipulate and assess the scroller. This API is accessible via special <em>Adapter</em>\n      object. Currently it has only one method that allows you to reload the scroller:\n      <em>Adapter.reload(index)</em>. It resets the items buffer, resets the viewport params and starts\n      fetching items\n    </p>\n    <ul>\n      <li> from <em>index</em> position (if <em>reload</em> is called with parameter)</li>\n      <li> from <em>settings.startIndex</em> position (if <em>startIndex</em> setting is set)</li>\n      <li> from the default position which is 1 (if neither setting nor parameter is present)</li>\n    </ul>\n  </div>\n</app-demo>\n"
 
 /***/ }),
 
@@ -401,8 +355,16 @@ var DemoReloadComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoReloadComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__public_api__ = __webpack_require__("./public_api.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__public_api__ = __webpack_require__("./public_api.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
  // from 'ngx-ui-scroll';
 var DemoReloadComponent = /** @class */ (function () {
@@ -415,15 +377,15 @@ var DemoReloadComponent = /** @class */ (function () {
             count: 0,
             log: ''
         };
-        this.datasource = new __WEBPACK_IMPORTED_MODULE_1__public_api__["a" /* Datasource */]({
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext)
+        this.datasource = new __WEBPACK_IMPORTED_MODULE_2__public_api__["a" /* Datasource */]({
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext)
         });
-        this.reloadIndex = 1;
         this.sources = {
-            datasource: "datasource = new Datasource ({\n  get: (index, count, success) => {\n    const data = [];\n    for (let i = index; i <= index + count - 1; i++) {\n      data.push({ id: i, text: 'item #' + i });\n    }\n    success(data);\n  } \n});\n\nreloadIndex: number = 1;\n\ndoReload() {\n  this.datasource.adapter.reload(this.reloadIndex);\n}",
+            datasource: "datasource = new Datasource ({\n  get: (index, count, success) => {\n    const data = [];\n    for (let i = index; i <= index + count - 1; i++) {\n      data.push({ id: i, text: 'item #' + i });\n    }\n    success(data);\n  }\n});\n\nreloadIndex: number = 1;\n\ndoReload() {\n  this.datasource.adapter.reload(this.reloadIndex);\n}",
             template: "<button (click)=\"doReload()\">Reload</button>\n<input [(ngModel)]=\"reloadIndex\">\n\n<div class=\"viewport\">\n  <div *uiScroll=\"let item of datasource\">\n    <div class=\"item\">{{item.text}}</div>\n  </div>\n</div>",
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
+        this.reloadIndex = 1;
     }
     DemoReloadComponent.prototype.onInputChanged = function (target) {
         var value = parseInt(target.value, 10);
@@ -438,6 +400,12 @@ var DemoReloadComponent = /** @class */ (function () {
         this.demoContext.log = '';
         this.datasource.adapter.reload(this.reloadIndex);
     };
+    DemoReloadComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-reload',
+            template: __webpack_require__("./demo/app/samples/adapter/reload.component.html")
+        })
+    ], DemoReloadComponent);
     return DemoReloadComponent;
 }());
 
@@ -445,64 +413,10 @@ var DemoReloadComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* unused harmony export RenderType_CommonComponent */
-/* unused harmony export View_CommonComponent_0 */
-/* unused harmony export View_CommonComponent_Host_0 */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CommonComponentNgFactory; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common_basic_component_ngfactory__ = __webpack_require__("./demo/app/samples/common/basic.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_basic_component__ = __webpack_require__("./demo/app/samples/common/basic.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_buffer_size_component_ngfactory__ = __webpack_require__("./demo/app/samples/common/buffer-size.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_buffer_size_component__ = __webpack_require__("./demo/app/samples/common/buffer-size.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_padding_component_ngfactory__ = __webpack_require__("./demo/app/samples/common/padding.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__common_padding_component__ = __webpack_require__("./demo/app/samples/common/padding.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__common_start_index_component_ngfactory__ = __webpack_require__("./demo/app/samples/common/start-index.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__common_start_index_component__ = __webpack_require__("./demo/app/samples/common/start-index.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__common_infinite_component_ngfactory__ = __webpack_require__("./demo/app/samples/common/infinite.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__common_infinite_component__ = __webpack_require__("./demo/app/samples/common/infinite.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__common_horizontal_component_ngfactory__ = __webpack_require__("./demo/app/samples/common/horizontal.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__common_horizontal_component__ = __webpack_require__("./demo/app/samples/common/horizontal.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__common_different_heights_component_ngfactory__ = __webpack_require__("./demo/app/samples/common/different-heights.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__common_different_heights_component__ = __webpack_require__("./demo/app/samples/common/different-heights.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__common_window_viewport_component_ngfactory__ = __webpack_require__("./demo/app/samples/common/window-viewport.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__common_window_viewport_component__ = __webpack_require__("./demo/app/samples/common/window-viewport.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__common_component__ = __webpack_require__("./demo/app/samples/common.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var styles_CommonComponent = [];
-var RenderType_CommonComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_CommonComponent, data: {} });
-
-function View_CommonComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-basic", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__common_basic_component_ngfactory__["b" /* View_DemoBasicComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__common_basic_component_ngfactory__["a" /* RenderType_DemoBasicComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__common_basic_component__["a" /* DemoBasicComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, null, 1, "app-demo-buffer-size", [], null, null, null, __WEBPACK_IMPORTED_MODULE_3__common_buffer_size_component_ngfactory__["b" /* View_DemoBufferSizeComponent_0 */], __WEBPACK_IMPORTED_MODULE_3__common_buffer_size_component_ngfactory__["a" /* RenderType_DemoBufferSizeComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](4, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_4__common_buffer_size_component__["a" /* DemoBufferSizeComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](6, 0, null, null, 1, "app-demo-padding", [], null, null, null, __WEBPACK_IMPORTED_MODULE_5__common_padding_component_ngfactory__["b" /* View_DemoPaddingComponent_0 */], __WEBPACK_IMPORTED_MODULE_5__common_padding_component_ngfactory__["a" /* RenderType_DemoPaddingComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](7, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_6__common_padding_component__["a" /* DemoPaddingComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](9, 0, null, null, 1, "app-demo-start-index", [], null, null, null, __WEBPACK_IMPORTED_MODULE_7__common_start_index_component_ngfactory__["b" /* View_DemoStartIndexComponent_0 */], __WEBPACK_IMPORTED_MODULE_7__common_start_index_component_ngfactory__["a" /* RenderType_DemoStartIndexComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](10, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_8__common_start_index_component__["a" /* DemoStartIndexComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](12, 0, null, null, 1, "app-demo-infinite", [], null, null, null, __WEBPACK_IMPORTED_MODULE_9__common_infinite_component_ngfactory__["b" /* View_DemoInfiniteComponent_0 */], __WEBPACK_IMPORTED_MODULE_9__common_infinite_component_ngfactory__["a" /* RenderType_DemoInfiniteComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](13, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_10__common_infinite_component__["a" /* DemoInfiniteComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](15, 0, null, null, 1, "app-demo-horizontal", [], null, null, null, __WEBPACK_IMPORTED_MODULE_11__common_horizontal_component_ngfactory__["b" /* View_DemoHorizontalComponent_0 */], __WEBPACK_IMPORTED_MODULE_11__common_horizontal_component_ngfactory__["a" /* RenderType_DemoHorizontalComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](16, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_12__common_horizontal_component__["a" /* DemoHorizontalComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](18, 0, null, null, 1, "app-demo-different-heights", [], null, null, null, __WEBPACK_IMPORTED_MODULE_13__common_different_heights_component_ngfactory__["b" /* View_DemoDifferentHeightsComponent_0 */], __WEBPACK_IMPORTED_MODULE_13__common_different_heights_component_ngfactory__["a" /* RenderType_DemoDifferentHeightsComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](19, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_14__common_different_heights_component__["a" /* DemoDifferentHeightsComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](21, 0, null, null, 1, "app-demo-window-viewport", [], null, null, null, __WEBPACK_IMPORTED_MODULE_15__common_window_viewport_component_ngfactory__["b" /* View_DemoWindowViewportComponent_0 */], __WEBPACK_IMPORTED_MODULE_15__common_window_viewport_component_ngfactory__["a" /* RenderType_DemoWindowViewportComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](22, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_16__common_window_viewport_component__["a" /* DemoWindowViewportComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], null, null); }
-function View_CommonComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-samples-common", [], null, null, null, View_CommonComponent_0, RenderType_CommonComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_17__common_component__["a" /* CommonComponent */], [], null, null)], null, null); }
-var CommonComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-samples-common", __WEBPACK_IMPORTED_MODULE_17__common_component__["a" /* CommonComponent */], View_CommonComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo-basic></app-demo-basic>\n<app-demo-buffer-size></app-demo-buffer-size>\n<app-demo-padding></app-demo-padding>\n<app-demo-start-index></app-demo-start-index>\n<app-demo-infinite></app-demo-infinite>\n<app-demo-horizontal></app-demo-horizontal>\n<app-demo-different-heights></app-demo-different-heights>\n<app-demo-window-viewport></app-demo-window-viewport>\n"
 
 /***/ }),
 
@@ -511,9 +425,27 @@ var CommonComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12"
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CommonComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
 var CommonComponent = /** @class */ (function () {
     function CommonComponent() {
     }
+    CommonComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-samples-common',
+            template: __webpack_require__("./demo/app/samples/common.component.html")
+        }),
+        __metadata("design:paramtypes", [])
+    ], CommonComponent);
     return CommonComponent;
 }());
 
@@ -521,36 +453,10 @@ var CommonComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common/basic.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common/basic.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoBasicComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoBasicComponent_0;
-/* unused harmony export View_DemoBasicComponent_Host_0 */
-/* unused harmony export DemoBasicComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__basic_component__ = __webpack_require__("./demo/app/samples/common/basic.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_DemoBasicComponent = [];
-var RenderType_DemoBasicComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoBasicComponent, data: {} });
-
-function View_DemoBasicComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 44, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 1, 40, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 25, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      As it follows from the documentation, a special "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](7, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" object needs to be passed to the\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["*uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" directive. The basic ngx-ui-scroll example includes primitive callback-based\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](13, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource.get"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" method implementation with no additional settings. The use of the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["*uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      directive at the template layer is very similar to the use of "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](19, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["*ngFor"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" directive in the simplest case. In\n      addition to "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](22, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [", a special viewport container is specified at the template. It defines the\n      scrollable area via "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](25, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["height"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" and "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](28, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["overflow"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" css properties.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](32, 0, null, null, 10, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](34, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource.get"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" log shows us that there are 4 requests of 5 items on the initial load (before\n      scrolling). So we have 20 DOM elements (4 * 5) initially. The number of DOM elements is not constant during\n      user scrolling, but it fluctuates around the initial value. Why do we get 5 items per each\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](37, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["datasource.get"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" call? It is so because of default. We may change it via settings object and\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](40, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["bufferSize"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" property.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
-function View_DemoBasicComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-basic", [], null, null, null, View_DemoBasicComponent_0, RenderType_DemoBasicComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__basic_component__["a" /* DemoBasicComponent */], [], null, null)], null, null); }
-var DemoBasicComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-basic", __WEBPACK_IMPORTED_MODULE_3__basic_component__["a" /* DemoBasicComponent */], View_DemoBasicComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\n  [datasource]=\"datasource\"\n  [context]=\"demoContext\"\n  [sources]=\"sources\"\n>\n  <div description>\n    <p>\n      As it follows from the documentation, a special <em>Datasource</em> object needs to be passed to the\n      <em>*uiScroll</em> directive. The basic ngx-ui-scroll example includes primitive callback-based\n      <em>Datasource.get</em> method implementation with no additional settings. The use of the <em>*uiScroll</em>\n      directive at the template layer is very similar to the use of <em>*ngFor</em> directive in the simplest case. In\n      addition to <em>Datasource</em>, a special viewport container is specified at the template. It defines the\n      scrollable area via <em>height</em> and <em>overflow</em> css properties.\n    </p>\n    <p>\n      <em>Datasource.get</em> log shows us that there are 4 requests of 5 items on the initial load (before\n      scrolling). So we have 20 DOM elements (4 * 5) initially. The number of DOM elements is not constant during\n      user scrolling, but it fluctuates around the initial value. Why do we get 5 items per each\n      <em>datasource.get</em> call? It is so because of default. We may change it via settings object and\n      <em>bufferSize</em> property.\n    </p>\n  </div>\n</app-demo>\n"
 
 /***/ }),
 
@@ -559,7 +465,15 @@ var DemoBasicComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoBasicComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 var DemoBasicComponent = /** @class */ (function () {
     function DemoBasicComponent() {
@@ -571,7 +485,7 @@ var DemoBasicComponent = /** @class */ (function () {
             log: ''
         };
         this.datasource = {
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext)
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext)
         };
         this.sources = {
             datasource: "datasource: IDatasource = {\n  get: (index, count, success) => {\n    const data = [];\n    for (let i = index; i <= index + count - 1; i++) {\n      data.push({ id: i, text: 'item #' + i });\n    }\n    success(data);\n  }\n}",
@@ -579,6 +493,12 @@ var DemoBasicComponent = /** @class */ (function () {
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
     }
+    DemoBasicComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-basic',
+            template: __webpack_require__("./demo/app/samples/common/basic.component.html")
+        })
+    ], DemoBasicComponent);
     return DemoBasicComponent;
 }());
 
@@ -586,36 +506,10 @@ var DemoBasicComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common/buffer-size.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common/buffer-size.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoBufferSizeComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoBufferSizeComponent_0;
-/* unused harmony export View_DemoBufferSizeComponent_Host_0 */
-/* unused harmony export DemoBufferSizeComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffer_size_component__ = __webpack_require__("./demo/app/samples/common/buffer-size.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_DemoBufferSizeComponent = [];
-var RenderType_DemoBufferSizeComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoBufferSizeComponent, data: {} });
-
-function View_DemoBufferSizeComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 29, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 1, 25, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 22, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      In addition to "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](7, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["get"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" method, "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["settings"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" object can be declared on the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](13, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [". Here\n      we set "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["bufferSize"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" property which defines number of items requested from the datasource in a single\n      request. Now the initial load consist of 2 requests (from 1 to 15 and from -14 to 0). The bigger the\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](19, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["bufferSize"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" is, the less requests are needed to fill out the viewport. The default value of\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](22, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["bufferSize"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" property is 5. The minimum value is 1. Another setting which has an impact on the\n      viewport's filling procedure is "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](25, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["padding"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [".\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
-function View_DemoBufferSizeComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-buffer-size", [], null, null, null, View_DemoBufferSizeComponent_0, RenderType_DemoBufferSizeComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__buffer_size_component__["a" /* DemoBufferSizeComponent */], [], null, null)], null, null); }
-var DemoBufferSizeComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-buffer-size", __WEBPACK_IMPORTED_MODULE_3__buffer_size_component__["a" /* DemoBufferSizeComponent */], View_DemoBufferSizeComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\n  [datasource]=\"datasource\"\n  [context]=\"demoContext\"\n  [sources]=\"sources\"\n>\n  <div description>\n    <p>\n      In addition to <em>get</em> method, <em>settings</em> object can be declared on the <em>Datasource</em>. Here\n      we set <em>bufferSize</em> property which defines number of items requested from the datasource in a single\n      request. Now the initial load consist of 2 requests (from 1 to 15 and from -14 to 0). The bigger the\n      <em>bufferSize</em> is, the less requests are needed to fill out the viewport. The default value of\n      <em>bufferSize</em> property is 5. The minimum value is 1. Another setting which has an impact on the\n      viewport's filling procedure is <em>padding</em>.\n    </p>\n  </div>\n</app-demo>\n"
 
 /***/ }),
 
@@ -624,7 +518,15 @@ var DemoBufferSizeComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoBufferSizeComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 var DemoBufferSizeComponent = /** @class */ (function () {
     function DemoBufferSizeComponent() {
@@ -636,7 +538,7 @@ var DemoBufferSizeComponent = /** @class */ (function () {
             log: ''
         };
         this.datasource = {
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
             settings: {
                 bufferSize: 15
             }
@@ -647,6 +549,12 @@ var DemoBufferSizeComponent = /** @class */ (function () {
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
     }
+    DemoBufferSizeComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-buffer-size',
+            template: __webpack_require__("./demo/app/samples/common/buffer-size.component.html")
+        })
+    ], DemoBufferSizeComponent);
     return DemoBufferSizeComponent;
 }());
 
@@ -654,36 +562,10 @@ var DemoBufferSizeComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common/different-heights.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common/different-heights.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoDifferentHeightsComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoDifferentHeightsComponent_0;
-/* unused harmony export View_DemoDifferentHeightsComponent_Host_0 */
-/* unused harmony export DemoDifferentHeightsComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__different_heights_component__ = __webpack_require__("./demo/app/samples/common/different-heights.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_DemoDifferentHeightsComponent = [];
-var RenderType_DemoDifferentHeightsComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoDifferentHeightsComponent, data: {} });
-
-function View_DemoDifferentHeightsComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 8, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 1, 4, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      Scroller works fine with different item heights. To make this sample more strict and to demonstrate the\n      scrollbar parameters' consistency the limited datasource is being used.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
-function View_DemoDifferentHeightsComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-different-heights", [], null, null, null, View_DemoDifferentHeightsComponent_0, RenderType_DemoDifferentHeightsComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__different_heights_component__["a" /* DemoDifferentHeightsComponent */], [], null, null)], null, null); }
-var DemoDifferentHeightsComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-different-heights", __WEBPACK_IMPORTED_MODULE_3__different_heights_component__["a" /* DemoDifferentHeightsComponent */], View_DemoDifferentHeightsComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\n  [datasource]=\"datasource\"\n  [context]=\"demoContext\"\n  [sources]=\"sources\"\n>\n  <div description>\n    <p>\n      Scroller works fine with different item heights. To make this sample more strict and to demonstrate the\n      scrollbar parameters' consistency the limited datasource is being used.\n    </p>\n  </div>\n</app-demo>\n"
 
 /***/ }),
 
@@ -692,7 +574,15 @@ var DemoDifferentHeightsComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angula
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoDifferentHeightsComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 var DemoDifferentHeightsComponent = /** @class */ (function () {
     function DemoDifferentHeightsComponent() {
@@ -704,7 +594,7 @@ var DemoDifferentHeightsComponent = /** @class */ (function () {
             log: ''
         };
         this.datasource = {
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["b" /* datasourceGetCallbackLimited */])(this.demoContext, 1, 75)
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["b" /* datasourceGetCallbackLimited */])(this.demoContext, 1, 75)
         };
         this.sources = {
             datasource: "datasource: IDatasource = {\n  get: (index, count, success) => {\n    const MIN = 1, MAX = 75;\n    const data = [];\n    const start = Math.max(MIN, index);\n    const end = Math.min(index + count - 1, MAX);\n    if (start <= end) {\n      for (let i = start; i <= end; i++) {\n        data.push({ id: i, text: 'item #' + i, height: 20 + i });\n      }\n    }\n    success(data);\n  }\n}",
@@ -712,6 +602,12 @@ var DemoDifferentHeightsComponent = /** @class */ (function () {
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
     }
+    DemoDifferentHeightsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-different-heights',
+            template: __webpack_require__("./demo/app/samples/common/different-heights.component.html")
+        })
+    ], DemoDifferentHeightsComponent);
     return DemoDifferentHeightsComponent;
 }());
 
@@ -719,36 +615,10 @@ var DemoDifferentHeightsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common/horizontal.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common/horizontal.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoHorizontalComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoHorizontalComponent_0;
-/* unused harmony export View_DemoHorizontalComponent_Host_0 */
-/* unused harmony export DemoHorizontalComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__horizontal_component__ = __webpack_require__("./demo/app/samples/common/horizontal.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_DemoHorizontalComponent = [];
-var RenderType_DemoHorizontalComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoHorizontalComponent, data: {} });
-
-function View_DemoHorizontalComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 14, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 1, 10, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 7, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      Horizontal scrolling could be enabled via "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](7, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["horizontal"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" setting. The styles also need to be fixed in\n      accordance with horizontal scrolling. Currently we have some limitations at the template layer but\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["display: inline-block;"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" rule applied to all nested containers makes the horizontal mode work.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
-function View_DemoHorizontalComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-horizontal", [], null, null, null, View_DemoHorizontalComponent_0, RenderType_DemoHorizontalComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__horizontal_component__["a" /* DemoHorizontalComponent */], [], null, null)], null, null); }
-var DemoHorizontalComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-horizontal", __WEBPACK_IMPORTED_MODULE_3__horizontal_component__["a" /* DemoHorizontalComponent */], View_DemoHorizontalComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\n  [datasource]=\"datasource\"\n  [context]=\"demoContext\"\n  [sources]=\"sources\"\n>\n  <div description>\n    <p>\n      Horizontal scrolling could be enabled via <em>horizontal</em> setting. The styles also need to be fixed in\n      accordance with horizontal scrolling. Currently we have some limitations at the template layer but\n      <em>display: inline-block;</em> rule applied to all nested containers makes the horizontal mode work.\n    </p>\n  </div>\n</app-demo>\n"
 
 /***/ }),
 
@@ -757,7 +627,15 @@ var DemoHorizontalComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoHorizontalComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 var DemoHorizontalComponent = /** @class */ (function () {
     function DemoHorizontalComponent() {
@@ -770,7 +648,7 @@ var DemoHorizontalComponent = /** @class */ (function () {
             log: ''
         };
         this.datasource = {
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
             settings: {
                 horizontal: true
             }
@@ -781,6 +659,12 @@ var DemoHorizontalComponent = /** @class */ (function () {
             styles: ".viewport.horizontal {\n  width: 175px;\n  height: 100px;\n  overflow-anchor: none;\n  overflow-x: scroll;\n  overflow-y: hidden;\n  white-space: nowrap;\n}\n.viewport.horizontal div {\n  display: inline-block;\n}\n.item.horizontal {\n  border: 1px solid #aaa;\n  height: 100px;\n  padding: 0 5px;\n  font-weight: bolder;\n}"
         };
     }
+    DemoHorizontalComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-horizontal',
+            template: __webpack_require__("./demo/app/samples/common/horizontal.component.html")
+        })
+    ], DemoHorizontalComponent);
     return DemoHorizontalComponent;
 }());
 
@@ -788,36 +672,10 @@ var DemoHorizontalComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common/infinite.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common/infinite.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoInfiniteComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoInfiniteComponent_0;
-/* unused harmony export View_DemoInfiniteComponent_Host_0 */
-/* unused harmony export DemoInfiniteComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__infinite_component__ = __webpack_require__("./demo/app/samples/common/infinite.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_DemoInfiniteComponent = [];
-var RenderType_DemoInfiniteComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoInfiniteComponent, data: {} });
-
-function View_DemoInfiniteComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 20, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 1, 16, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 13, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      The "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](7, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" might work in the \"infinite\" mode, when items are never removed. This mode can\n      be turned on via "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["infinite"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" property of the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](13, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["settings"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" object. Setting "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["infinite"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" to true,\n      we ask the scroller not to remove items that are getting out of the viewport. That's why the DOM elements\n      counter value is being increased per each edge-scroll event.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
-function View_DemoInfiniteComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-infinite", [], null, null, null, View_DemoInfiniteComponent_0, RenderType_DemoInfiniteComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__infinite_component__["a" /* DemoInfiniteComponent */], [], null, null)], null, null); }
-var DemoInfiniteComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-infinite", __WEBPACK_IMPORTED_MODULE_3__infinite_component__["a" /* DemoInfiniteComponent */], View_DemoInfiniteComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\n  [datasource]=\"datasource\"\n  [context]=\"demoContext\"\n  [sources]=\"sources\"\n>\n  <div description>\n    <p>\n      The <em>uiScroll</em> might work in the \"infinite\" mode, when items are never removed. This mode can\n      be turned on via <em>infinite</em> property of the <em>settings</em> object. Setting <em>infinite</em> to true,\n      we ask the scroller not to remove items that are getting out of the viewport. That's why the DOM elements\n      counter value is being increased per each edge-scroll event.\n    </p>\n  </div>\n</app-demo>\n"
 
 /***/ }),
 
@@ -826,7 +684,15 @@ var DemoInfiniteComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoInfiniteComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 var DemoInfiniteComponent = /** @class */ (function () {
     function DemoInfiniteComponent() {
@@ -838,7 +704,7 @@ var DemoInfiniteComponent = /** @class */ (function () {
             log: ''
         };
         this.datasource = {
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
             settings: {
                 infinite: true
             }
@@ -849,6 +715,12 @@ var DemoInfiniteComponent = /** @class */ (function () {
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
     }
+    DemoInfiniteComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-infinite',
+            template: __webpack_require__("./demo/app/samples/common/infinite.component.html")
+        })
+    ], DemoInfiniteComponent);
     return DemoInfiniteComponent;
 }());
 
@@ -856,36 +728,10 @@ var DemoInfiniteComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common/padding.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common/padding.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoPaddingComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoPaddingComponent_0;
-/* unused harmony export View_DemoPaddingComponent_Host_0 */
-/* unused harmony export DemoPaddingComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__padding_component__ = __webpack_require__("./demo/app/samples/common/padding.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_DemoPaddingComponent = [];
-var RenderType_DemoPaddingComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoPaddingComponent, data: {} });
-
-function View_DemoPaddingComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 56, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 1, 52, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 16, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      Here the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](7, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource.get"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" is taken from previous samples, but the settings object is completed with\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["padding"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" property. "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](13, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Padding"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" is an extra space added to the visible part of the viewport for\n      the purpose of determining when the items should be created/destroyed. The value is relative to the visible\n      size of the viewport. "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["1.4"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" means that the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](19, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" would request new items until\n      140% of the viewport size (out of the visible part of the viewport) is filled with rendered items. That's why\n      we have 5 requests on the initial load in this case. There are 3 downward requests:\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](23, 0, null, null, 10, "ol", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](25, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["175px + 1.4 * 175px = 420px (downward space which has to be filled, when viewport's height = 175px )"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](28, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["ceil(420px / 25px) = 17 (items that are needed to feel 420px of the downward space, when item's height =\n        25px )\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](31, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["ceil(17 / 7) = 3 (datasource.get calls that are needed to request 17 items, when bufferSize = 7)"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](35, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      And 2 upward requests:\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](38, 0, null, null, 10, "ol", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](40, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["1.4 * 175px = 245px (upward space which have to be filled)"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](43, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["ceil(245px / 25px) = 10 (items that are needed to feel 245px of the upward space)"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](46, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["ceil(10 / 7) = 2 (datasource.get calls that are needed to request 10 items)"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](50, 0, null, null, 4, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      The default value of "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](52, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["padding"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" property is 0.5. The minimum value is 0.1.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
-function View_DemoPaddingComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-padding", [], null, null, null, View_DemoPaddingComponent_0, RenderType_DemoPaddingComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__padding_component__["a" /* DemoPaddingComponent */], [], null, null)], null, null); }
-var DemoPaddingComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-padding", __WEBPACK_IMPORTED_MODULE_3__padding_component__["a" /* DemoPaddingComponent */], View_DemoPaddingComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\n  [datasource]=\"datasource\"\n  [context]=\"demoContext\"\n  [sources]=\"sources\"\n>\n  <div description>\n    <p>\n      Here the <em>Datasource.get</em> is taken from previous samples, but the settings object is completed with\n      <em>padding</em> property. <em>Padding</em> is an extra space added to the visible part of the viewport for\n      the purpose of determining when the items should be created/destroyed. The value is relative to the visible\n      size of the viewport. <em>1.4</em> means that the <em>uiScroll</em> would request new items until\n      140% of the viewport size (out of the visible part of the viewport) is filled with rendered items. That's why\n      we have 5 requests on the initial load in this case. There are 3 downward requests:\n    </p>\n    <ol>\n      <li>175px + 1.4 * 175px = 420px (downward space which has to be filled, when viewport's height = 175px )</li>\n      <li>ceil(420px / 25px) = 17 (items that are needed to feel 420px of the downward space, when item's height =\n        25px )\n      </li>\n      <li>ceil(17 / 7) = 3 (datasource.get calls that are needed to request 17 items, when bufferSize = 7)</li>\n    </ol>\n    <p>\n      And 2 upward requests:\n    </p>\n    <ol>\n      <li>1.4 * 175px = 245px (upward space which have to be filled)</li>\n      <li>ceil(245px / 25px) = 10 (items that are needed to feel 245px of the upward space)</li>\n      <li>ceil(10 / 7) = 2 (datasource.get calls that are needed to request 10 items)</li>\n    </ol>\n    <p>\n      The default value of <em>padding</em> property is 0.5. The minimum value is 0.1.\n    </p>\n  </div>\n</app-demo>\n"
 
 /***/ }),
 
@@ -894,7 +740,15 @@ var DemoPaddingComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__[
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoPaddingComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 var DemoPaddingComponent = /** @class */ (function () {
     function DemoPaddingComponent() {
@@ -906,7 +760,7 @@ var DemoPaddingComponent = /** @class */ (function () {
             log: ''
         };
         this.datasource = {
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
             settings: {
                 bufferSize: 7,
                 padding: 1.5
@@ -918,6 +772,12 @@ var DemoPaddingComponent = /** @class */ (function () {
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
     }
+    DemoPaddingComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-padding',
+            template: __webpack_require__("./demo/app/samples/common/padding.component.html")
+        })
+    ], DemoPaddingComponent);
     return DemoPaddingComponent;
 }());
 
@@ -925,36 +785,10 @@ var DemoPaddingComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common/start-index.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common/start-index.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoStartIndexComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoStartIndexComponent_0;
-/* unused harmony export View_DemoStartIndexComponent_Host_0 */
-/* unused harmony export DemoStartIndexComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__start_index_component__ = __webpack_require__("./demo/app/samples/common/start-index.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_DemoStartIndexComponent = [];
-var RenderType_DemoStartIndexComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoStartIndexComponent, data: {} });
-
-function View_DemoStartIndexComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 20, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { datasource: [0, "datasource"], context: [1, "context"], sources: [2, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 1, 16, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 13, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      What if I want to start the "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](7, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["uiScroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" from some specific position? It is possible via "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["startIndex"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      setting which defines what item index the scroller will use to start the load process. The value has to be\n      an integer. It has no range limitations, but it must exist within the datasource boundaries in case the\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](13, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Datasource"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" is limited. The default value of "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["startIndex"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" setting is 1.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.datasource; var currVal_1 = _co.demoContext; var currVal_2 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2); }, null); }
-function View_DemoStartIndexComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-start-index", [], null, null, null, View_DemoStartIndexComponent_0, RenderType_DemoStartIndexComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__start_index_component__["a" /* DemoStartIndexComponent */], [], null, null)], null, null); }
-var DemoStartIndexComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-start-index", __WEBPACK_IMPORTED_MODULE_3__start_index_component__["a" /* DemoStartIndexComponent */], View_DemoStartIndexComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\r\n  [datasource]=\"datasource\"\r\n  [context]=\"demoContext\"\r\n  [sources]=\"sources\"\r\n>\r\n  <div description>\r\n    <p>\r\n      What if I want to start the <em>uiScroll</em> from some specific position? It is possible via <em>startIndex</em>\r\n      setting which defines what item index the scroller will use to start the load process. The value has to be\r\n      an integer. It has no range limitations, but it must exist within the datasource boundaries in case the\r\n      <em>Datasource</em> is limited. The default value of <em>startIndex</em> setting is 1.\r\n    </p>\r\n  </div>\r\n</app-demo>\r\n"
 
 /***/ }),
 
@@ -963,7 +797,15 @@ var DemoStartIndexComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoStartIndexComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__ = __webpack_require__("./demo/app/shared/datasource-get.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 var DemoStartIndexComponent = /** @class */ (function () {
     function DemoStartIndexComponent() {
@@ -975,7 +817,7 @@ var DemoStartIndexComponent = /** @class */ (function () {
             log: ''
         };
         this.datasource = {
-            get: Object(__WEBPACK_IMPORTED_MODULE_0__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
+            get: Object(__WEBPACK_IMPORTED_MODULE_1__shared_datasource_get__["a" /* datasourceGetCallbackInfinite */])(this.demoContext),
             settings: {
                 startIndex: 137
             }
@@ -986,6 +828,12 @@ var DemoStartIndexComponent = /** @class */ (function () {
             styles: ".viewport {\n  width: 175px;\n  height: 175px;\n  overflow-y: auto;\n  overflow-anchor: none;\n}\n.item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
     }
+    DemoStartIndexComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-start-index',
+            template: __webpack_require__("./demo/app/samples/common/start-index.component.html")
+        })
+    ], DemoStartIndexComponent);
     return DemoStartIndexComponent;
 }());
 
@@ -993,43 +841,10 @@ var DemoStartIndexComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/common/window-viewport.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/common/window-viewport.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoWindowViewportComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoWindowViewportComponent_0;
-/* unused harmony export View_DemoWindowViewportComponent_Host_0 */
-/* unused harmony export DemoWindowViewportComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__ = __webpack_require__("./demo/app/shared/demo.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__window_viewport_component__ = __webpack_require__("./demo/app/samples/common/window-viewport.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-
-var styles_DemoWindowViewportComponent = [];
-var RenderType_DemoWindowViewportComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoWindowViewportComponent, data: {} });
-
-function View_DemoWindowViewportComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 18, "app-demo", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["b" /* View_DemoComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__shared_demo_component_ngfactory__["a" /* RenderType_DemoComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_2__shared_demo_component__["a" /* DemoComponent */], [], { context: [0, "context"], sources: [1, "sources"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, 0, 5, "div", [["actions", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    Follow "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](5, 0, null, null, 2, "a", [["routerLink", "/window"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 6).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](6, 671744, null, 0, __WEBPACK_IMPORTED_MODULE_3__angular_router__["m" /* RouterLinkWithHref */], [__WEBPACK_IMPORTED_MODULE_3__angular_router__["l" /* Router */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_4__angular_common__["g" /* LocationStrategy */]], { routerLink: [0, "routerLink"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["this link"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" to open the Entire Window scrollable demo.\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, 1, 7, "div", [["description", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](12, 0, null, null, 4, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      The entire window might work as a Viewport if "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](14, 0, null, null, 1, "em", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["windowViewport"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [" setting is set to true.\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.demoContext; var currVal_1 = _co.sources; _ck(_v, 1, 0, currVal_0, currVal_1); var currVal_4 = "/window"; _ck(_v, 6, 0, currVal_4); }, function (_ck, _v) { var currVal_2 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 6).target; var currVal_3 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 6).href; _ck(_v, 5, 0, currVal_2, currVal_3); }); }
-function View_DemoWindowViewportComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo-window-viewport", [], null, null, null, View_DemoWindowViewportComponent_0, RenderType_DemoWindowViewportComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_5__window_viewport_component__["a" /* DemoWindowViewportComponent */], [], null, null)], null, null); }
-var DemoWindowViewportComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo-window-viewport", __WEBPACK_IMPORTED_MODULE_5__window_viewport_component__["a" /* DemoWindowViewportComponent */], View_DemoWindowViewportComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<app-demo\r\n  [context]=\"demoContext\"\r\n  [sources]=\"sources\"\r\n>\r\n  <div actions>\r\n    Follow <a routerLink=\"/window\">this link</a> to open the Entire Window scrollable demo.\r\n  </div>\r\n\r\n  <div description>\r\n    <p>\r\n      The entire window might work as a Viewport if <em>windowViewport</em> setting is set to true.\r\n    </p>\r\n  </div>\r\n</app-demo>\r\n"
 
 /***/ }),
 
@@ -1038,6 +853,14 @@ var DemoWindowViewportComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoWindowViewportComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 var DemoWindowViewportComponent = /** @class */ (function () {
     function DemoWindowViewportComponent() {
         this.demoContext = {
@@ -1054,6 +877,12 @@ var DemoWindowViewportComponent = /** @class */ (function () {
             styles: ".item {\n  font-weight: bold;\n  height: 25px;\n}"
         };
     }
+    DemoWindowViewportComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo-window-viewport',
+            template: __webpack_require__("./demo/app/samples/common/window-viewport.component.html")
+        })
+    ], DemoWindowViewportComponent);
     return DemoWindowViewportComponent;
 }());
 
@@ -1061,55 +890,10 @@ var DemoWindowViewportComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/test.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/test.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* unused harmony export RenderType_TestComponent */
-/* unused harmony export View_TestComponent_0 */
-/* unused harmony export View_TestComponent_Host_0 */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestComponentNgFactory; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_ui_scroll_directive__ = __webpack_require__("./src/ui-scroll.directive.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__test_component__ = __webpack_require__("./demo/app/samples/test.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_TestComponent = [];
-var RenderType_TestComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_TestComponent, data: {} });
-
-function View_TestComponent_1(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 1, "b", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](3, null, ["", ""])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "]))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.text; _ck(_v, 3, 0, currVal_0); }); }
-function View_TestComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 14, "div", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 5, "input", [], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 3)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 3).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 3)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 3)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.reloadIndex = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](3, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* DefaultValueAccessor */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Renderer2 */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ElementRef */], [2, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* COMPOSITION_BUFFER_MODE */]]], null, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_32" /* ɵprd */](1024, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* NG_VALUE_ACCESSOR */], function (p0_0) { return [p0_0]; }, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* DefaultValueAccessor */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](5, 671744, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* NgModel */], [[8, null], [8, null], [8, null], [2, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* NG_VALUE_ACCESSOR */]]], { model: [0, "model"] }, { update: "ngModelChange" }), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_32" /* ɵprd */](2048, null, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* NgControl */], null, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* NgModel */]]), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](7, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["f" /* NgControlStatus */], [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* NgControl */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](9, 0, null, null, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.doReload() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Reload"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](12, 0, null, null, 0, "br", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](13, 0, null, null, 0, "br", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, null, 4, "div", [["class", "viewport"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_TestComponent_1)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](19, 81920, null, 0, __WEBPACK_IMPORTED_MODULE_2__src_ui_scroll_directive__["a" /* UiScrollDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* TemplateRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */]], { uiScrollOf: [0, "uiScrollOf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.reloadIndex; _ck(_v, 5, 0, currVal_7); var currVal_8 = _co.datasource; _ck(_v, 19, 0, currVal_8); }, function (_ck, _v) { var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 7).ngClassUntouched; var currVal_1 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 7).ngClassTouched; var currVal_2 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 7).ngClassPristine; var currVal_3 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 7).ngClassDirty; var currVal_4 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 7).ngClassValid; var currVal_5 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 7).ngClassInvalid; var currVal_6 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 7).ngClassPending; _ck(_v, 2, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
-function View_TestComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-samples-test", [], null, null, null, View_TestComponent_0, RenderType_TestComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__test_component__["a" /* TestComponent */], [], null, null)], null, null); }
-var TestComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-samples-test", __WEBPACK_IMPORTED_MODULE_3__test_component__["a" /* TestComponent */], View_TestComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<div>\r\n  <input [(ngModel)]=\"reloadIndex\">\r\n  <button (click)=\"doReload()\">Reload</button>\r\n  <br><br>\r\n</div>\r\n\r\n<div class=\"viewport\" style=\"height: 600px\">\r\n  <!--<div style=\"height: 100px\">gap</div>-->\r\n  <div *uiScroll=\"let item of datasource\">\r\n    <app-samples-test-inner>{{item.text}}</app-samples-test-inner>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -1117,12 +901,36 @@ var TestComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TestInnerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs__ = __webpack_require__("./node_modules/rxjs/Rx.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__("./node_modules/rxjs/_esm5/Observable.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
 
 var MAX = 500;
 var MIN = 1;
+var TestInnerComponent = /** @class */ (function () {
+    function TestInnerComponent() {
+    }
+    TestInnerComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-samples-test-inner',
+            template: '<b><ng-content></ng-content></b>'
+        }),
+        __metadata("design:paramtypes", [])
+    ], TestInnerComponent);
+    return TestInnerComponent;
+}());
+
 var TestComponent = /** @class */ (function () {
     function TestComponent() {
         var _this = this;
@@ -1132,7 +940,7 @@ var TestComponent = /** @class */ (function () {
                 return _this.fetchData(index, count);
             },
             settings: {
-                bufferSize: 10
+                bufferSize: 20
             },
             devSettings: {
                 debug: true
@@ -1159,11 +967,18 @@ var TestComponent = /** @class */ (function () {
                 data.push(this.data[i - MIN]);
             }
         }
-        return __WEBPACK_IMPORTED_MODULE_0_rxjs__["Observable"].create(function (observer) {
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["a" /* Observable */].create(function (observer) {
             // setTimeout(() => observer.next(data), 500);
             observer.next(data);
         });
     };
+    TestComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-samples-test',
+            template: __webpack_require__("./demo/app/samples/test.component.html")
+        }),
+        __metadata("design:paramtypes", [])
+    ], TestComponent);
     return TestComponent;
 }());
 
@@ -1171,42 +986,10 @@ var TestComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/samples/window.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/samples/window.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* unused harmony export RenderType_WindowComponent */
-/* unused harmony export View_WindowComponent_0 */
-/* unused harmony export View_WindowComponent_Host_0 */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WindowComponentNgFactory; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_ui_scroll_directive__ = __webpack_require__("./src/ui-scroll.directive.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__window_component__ = __webpack_require__("./demo/app/samples/window.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-var styles_WindowComponent = [];
-var RenderType_WindowComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_WindowComponent, data: {} });
-
-function View_WindowComponent_1(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 1, "b", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](3, null, ["", ""])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.text; _ck(_v, 3, 0, currVal_0); }); }
-function View_WindowComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 5, "div", [["class", "over"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 2, "a", [["class", "navbar-link"], ["routerLink", "/"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 3).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](3, 671744, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_router__["m" /* RouterLinkWithHref */], [__WEBPACK_IMPORTED_MODULE_1__angular_router__["l" /* Router */], __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_2__angular_common__["g" /* LocationStrategy */]], { routerLink: [0, "routerLink"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Home"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_WindowComponent_1)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](8, 81920, null, 0, __WEBPACK_IMPORTED_MODULE_3__src_ui_scroll_directive__["a" /* UiScrollDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* TemplateRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */]], { uiScrollOf: [0, "uiScrollOf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_2 = "/"; _ck(_v, 3, 0, currVal_2); var currVal_3 = _co.datasource; _ck(_v, 8, 0, currVal_3); }, function (_ck, _v) { var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 3).target; var currVal_1 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 3).href; _ck(_v, 2, 0, currVal_0, currVal_1); }); }
-function View_WindowComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-samples-window", [], null, null, null, View_WindowComponent_0, RenderType_WindowComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_4__window_component__["a" /* WindowComponent */], [], null, null)], null, null); }
-var WindowComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-samples-window", __WEBPACK_IMPORTED_MODULE_4__window_component__["a" /* WindowComponent */], View_WindowComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<div class=\"header\">\n  <h1>Entire window scrolling demo</h1>\n  <a class=\"navbar-link\" routerLink=\"/\">Home</a>\n</div>\n\n<div *ngIf=\"init\">\n  <div *uiScroll=\"let item of datasource\">\n    <b>{{item.text}}</b>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1215,24 +998,48 @@ var WindowComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12"
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WindowComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
 var WindowComponent = /** @class */ (function () {
     function WindowComponent() {
+        var _this = this;
         this.datasource = {
             get: function (index, count, success) {
+                var start = Math.max(index, 1);
+                var end = start + count;
                 var data = [];
-                for (var i = index; i <= index + count - 1; i++) {
-                    data.push({ id: i, text: 'item #' + i });
+                if (start < end) {
+                    for (var i = start; i <= index + count - 1; i++) {
+                        data.push({ id: i, text: 'item #' + i });
+                    }
                 }
                 success(data);
             },
             settings: {
+                bufferSize: 10,
+                padding: 0.01,
+                startIndex: 1,
                 windowViewport: true
-            },
-            devSettings: {
-                debug: true
             }
         };
+        setTimeout(function () { return _this.init = true; });
     }
+    WindowComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-samples-window',
+            template: __webpack_require__("./demo/app/samples/window.component.html")
+        }),
+        __metadata("design:paramtypes", [])
+    ], WindowComponent);
     return WindowComponent;
 }());
 
@@ -1250,8 +1057,6 @@ var WindowComponent = /** @class */ (function () {
 /* unused harmony export datasourceGetPromiseInfinite */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return datasourceGetCallbackInfinite; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return datasourceGetCallbackLimited; });
-/* unused harmony export ɵ0 */
-/* unused harmony export ɵ1 */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__("./node_modules/rxjs/_esm5/Observable.js");
 
 var delayedCall = function (result, callback, delay) {
@@ -1262,13 +1067,11 @@ var delayedCall = function (result, callback, delay) {
         setTimeout(function () { return callback(result); }, Number(delay));
     }
 };
-var ɵ0 = delayedCall;
 var doLog = function (demoContext, index, count, resolved) {
     return demoContext.log =
         ++demoContext.count + ") got " + resolved + " items [" + index + ", " + (index + count - 1) + "]\n"
             + demoContext.log;
 };
-var ɵ1 = doLog;
 var datasourceGetInfinite = function (demoContext, index, count) {
     var data = [];
     for (var i = index; i <= index + count - 1; i++) {
@@ -1313,49 +1116,12 @@ var datasourceGetCallbackLimited = function (demoContext, min, max, delay) {
 };
 
 
-
 /***/ }),
 
-/***/ "./demo/app/shared/demo.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/shared/demo.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_DemoComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_DemoComponent_0;
-/* unused harmony export View_DemoComponent_Host_0 */
-/* unused harmony export DemoComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ui_scroll_directive__ = __webpack_require__("./src/ui-scroll.directive.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__node_modules_ngx_bootstrap_tabs_tabset_component_ngfactory__ = __webpack_require__("./node_modules/ngx-bootstrap/tabs/tabset.component.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ngx_bootstrap_tabs_tabset_component__ = __webpack_require__("./node_modules/ngx-bootstrap/tabs/tabset.component.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ngx_bootstrap_tabs_tabset_config__ = __webpack_require__("./node_modules/ngx-bootstrap/tabs/tabset.config.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ngx_bootstrap_tabs_tab_directive__ = __webpack_require__("./node_modules/ngx-bootstrap/tabs/tab.directive.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__demo_component__ = __webpack_require__("./demo/app/shared/demo.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-
-
-
-
-var styles_DemoComponent = [];
-var RenderType_DemoComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_DemoComponent, data: {} });
-
-function View_DemoComponent_2(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n          "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 1, "div", [], [[8, "className", 0], [4, "height", null]], null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](3, null, ["", "\n          "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵinlineInterpolate */](1, "item ", (_co.context.addClass || ""), ""); var currVal_1 = ((_v.context.$implicit.height !== undefined) ? (_v.context.$implicit.height + "px") : null); _ck(_v, 2, 0, currVal_0, currVal_1); var currVal_2 = _v.context.$implicit.text; _ck(_v, 3, 0, currVal_2); }); }
-function View_DemoComponent_1(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 24, "div", [["class", "work"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 7, "div", [["style", "float: left"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](4, 0, null, null, 4, "div", [], [[8, "className", 0], [8, "id", 0]], null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_DemoComponent_2)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](7, 81920, null, 0, __WEBPACK_IMPORTED_MODULE_1__src_ui_scroll_directive__["a" /* UiScrollDirective */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* TemplateRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* ComponentFactoryResolver */]], { uiScrollOf: [0, "uiScrollOf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](11, 0, null, null, 4, "div", [], [[8, "className", 0]], null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      DOM elements\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](13, 0, null, null, 1, "pre", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](14, null, ["", ""])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](17, 0, null, null, 4, "div", [], [[8, "className", 0]], null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      Datasource.get log\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](19, 0, null, null, 1, "pre", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](20, null, ["", ""])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](23, 0, null, null, 0, "div", [["class", "clearfix mb-3"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "]))], function (_ck, _v) { var _co = _v.component; var currVal_2 = _co.datasource; _ck(_v, 7, 0, currVal_2); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵinlineInterpolate */](1, "viewport ", (_co.context.addClass || ""), ""); var currVal_1 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵinlineInterpolate */](1, "", _co.context.viewportId, ""); _ck(_v, 4, 0, currVal_0, currVal_1); var currVal_3 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵinlineInterpolate */](1, "log elements ", (_co.context.addClass || ""), ""); _ck(_v, 11, 0, currVal_3); var currVal_4 = _co.elements(_co.context.viewportId); _ck(_v, 14, 0, currVal_4); var currVal_5 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵinlineInterpolate */](1, "log datasource ", (_co.context.addClass || ""), ""); _ck(_v, 17, 0, currVal_5); var currVal_6 = _co.context.log; _ck(_v, 20, 0, currVal_6); }); }
-function View_DemoComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 48, "div", [["class", "demo"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 4, "h3", [], [[8, "id", 0]], null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](3, null, ["\n    ", "\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](4, 0, null, null, 1, "a", [], [[8, "href", 4]], null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["#"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](8, 0, null, null, 3, "div", [["class", "actions"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵncd */](null, 0), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_DemoComponent_1)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](14, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_2__angular_common__["j" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](16, 0, null, null, 26, "div", [["class", "sources"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](18, 0, null, null, 23, "tabset", [], [[2, "tab-container", null]], null, null, __WEBPACK_IMPORTED_MODULE_3__node_modules_ngx_bootstrap_tabs_tabset_component_ngfactory__["b" /* View_TabsetComponent_0 */], __WEBPACK_IMPORTED_MODULE_3__node_modules_ngx_bootstrap_tabs_tabset_component_ngfactory__["a" /* RenderType_TabsetComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](19, 180224, null, 0, __WEBPACK_IMPORTED_MODULE_4_ngx_bootstrap_tabs_tabset_component__["a" /* TabsetComponent */], [__WEBPACK_IMPORTED_MODULE_5_ngx_bootstrap_tabs_tabset_config__["a" /* TabsetConfig */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Renderer2 */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, 0, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](21, 0, null, 0, 5, "tab", [["heading", "Component"]], [[1, "id", 0], [2, "active", null], [2, "tab-pane", null]], null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](22, 212992, null, 0, __WEBPACK_IMPORTED_MODULE_6_ngx_bootstrap_tabs_tab_directive__["a" /* TabDirective */], [__WEBPACK_IMPORTED_MODULE_4_ngx_bootstrap_tabs_tabset_component__["a" /* TabsetComponent */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Renderer2 */]], { heading: [0, "heading"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](24, 0, null, null, 1, "pre", [["class", "prettyprint"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](25, null, ["", ""])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, 0, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](28, 0, null, 0, 5, "tab", [["heading", "Template"]], [[1, "id", 0], [2, "active", null], [2, "tab-pane", null]], null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](29, 212992, null, 0, __WEBPACK_IMPORTED_MODULE_6_ngx_bootstrap_tabs_tab_directive__["a" /* TabDirective */], [__WEBPACK_IMPORTED_MODULE_4_ngx_bootstrap_tabs_tabset_component__["a" /* TabsetComponent */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Renderer2 */]], { heading: [0, "heading"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](31, 0, null, null, 1, "pre", [["class", "prettyprint lang-html"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](32, null, ["", ""])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, 0, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](35, 0, null, 0, 5, "tab", [["heading", "CSS"]], [[1, "id", 0], [2, "active", null], [2, "tab-pane", null]], null, null, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](36, 212992, null, 0, __WEBPACK_IMPORTED_MODULE_6_ngx_bootstrap_tabs_tab_directive__["a" /* TabDirective */], [__WEBPACK_IMPORTED_MODULE_4_ngx_bootstrap_tabs_tabset_component__["a" /* TabsetComponent */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Renderer2 */]], { heading: [0, "heading"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](38, 0, null, null, 1, "pre", [["class", "prettyprint"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](39, null, ["", ""])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, 0, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](44, 0, null, null, 3, "div", [["class", "description"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* ɵncd */](null, 1), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var _co = _v.component; var currVal_3 = !_co.context.noWorkView; _ck(_v, 14, 0, currVal_3); var currVal_8 = "Component"; _ck(_v, 22, 0, currVal_8); var currVal_13 = "Template"; _ck(_v, 29, 0, currVal_13); var currVal_18 = "CSS"; _ck(_v, 36, 0, currVal_18); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵinlineInterpolate */](1, "", _co.context.titleId, ""); _ck(_v, 2, 0, currVal_0); var currVal_1 = _co.context.title; _ck(_v, 3, 0, currVal_1); var currVal_2 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵinlineInterpolate */](2, "#/", _co.context.scope, "#", _co.context.titleId, ""); _ck(_v, 4, 0, currVal_2); var currVal_4 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 19).clazz; _ck(_v, 18, 0, currVal_4); var currVal_5 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 22).id; var currVal_6 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 22).active; var currVal_7 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 22).addClass; _ck(_v, 21, 0, currVal_5, currVal_6, currVal_7); var currVal_9 = _co.sources.datasource; _ck(_v, 25, 0, currVal_9); var currVal_10 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 29).id; var currVal_11 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 29).active; var currVal_12 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 29).addClass; _ck(_v, 28, 0, currVal_10, currVal_11, currVal_12); var currVal_14 = _co.sources.template; _ck(_v, 32, 0, currVal_14); var currVal_15 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 36).id; var currVal_16 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 36).active; var currVal_17 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 36).addClass; _ck(_v, 35, 0, currVal_15, currVal_16, currVal_17); var currVal_19 = _co.sources.styles; _ck(_v, 39, 0, currVal_19); }); }
-function View_DemoComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-demo", [], null, null, null, View_DemoComponent_0, RenderType_DemoComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_7__demo_component__["a" /* DemoComponent */], [], null, null)], null, null); }
-var DemoComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-demo", __WEBPACK_IMPORTED_MODULE_7__demo_component__["a" /* DemoComponent */], View_DemoComponent_Host_0, { datasource: "datasource", context: "context", sources: "sources" }, {}, ["[actions]", "[description]"]);
-
-
+module.exports = "<div class=\"demo\">\r\n\r\n  <h3 id=\"{{context.titleId}}\">\r\n    {{context.title}}\r\n    <a href=\"#/{{context.scope}}#{{context.titleId}}\">#</a>\r\n  </h3>\r\n\r\n  <div class=\"actions\">\r\n    <ng-content select=\"[actions]\"></ng-content>\r\n  </div>\r\n\r\n  <div class=\"work\" *ngIf=\"!context.noWorkView\">\r\n    <div style=\"float: left\">\r\n      <div class=\"viewport {{context.addClass || ''}}\" id=\"{{context.viewportId}}\">\r\n        <div *uiScroll=\"let item of datasource\">\r\n          <div\r\n            class=\"item {{context.addClass || ''}}\"\r\n            [style.height]=\"item.height !== undefined ? item.height + 'px' : null\"\r\n          >{{item.text}}\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"log elements {{context.addClass || ''}}\">\r\n      DOM elements\r\n      <pre>{{elements(context.viewportId)}}</pre>\r\n    </div>\r\n    <div class=\"log datasource {{context.addClass || ''}}\">\r\n      Datasource.get log\r\n      <pre>{{context.log}}</pre>\r\n    </div>\r\n    <div class=\"clearfix mb-3\"></div>\r\n  </div>\r\n\r\n  <div class=\"sources\">\r\n    <tabset>\r\n      <tab heading=\"Component\">\r\n        <pre class=\"prettyprint\">{{sources.datasource}}</pre>\r\n      </tab>\r\n      <tab heading=\"Template\">\r\n        <pre class=\"prettyprint lang-html\">{{sources.template}}</pre>\r\n      </tab>\r\n      <tab heading=\"CSS\">\r\n        <pre class=\"prettyprint\">{{sources.styles}}</pre>\r\n      </tab>\r\n    </tabset>\r\n  </div>\r\n\r\n  <div class=\"description\">\r\n    <ng-content select=\"[description]\"></ng-content>\r\n  </div>\r\n\r\n</div>\r\n"
 
 /***/ }),
 
@@ -1364,7 +1130,18 @@ var DemoComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DemoComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__public_api__ = __webpack_require__("./public_api.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__public_api__ = __webpack_require__("./public_api.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
  // from 'ngx-ui-scroll';
 var DemoComponent = /** @class */ (function () {
     function DemoComponent() {
@@ -1377,6 +1154,25 @@ var DemoComponent = /** @class */ (function () {
         var count = element.children[0].childElementCount || 0;
         return (count - 2).toString(10);
     };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__public_api__["a" /* Datasource */])
+    ], DemoComponent.prototype, "datasource", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], DemoComponent.prototype, "context", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], DemoComponent.prototype, "sources", void 0);
+    DemoComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-demo',
+            template: __webpack_require__("./demo/app/shared/demo.component.html")
+        }),
+        __metadata("design:paramtypes", [])
+    ], DemoComponent);
     return DemoComponent;
 }());
 
@@ -1384,42 +1180,10 @@ var DemoComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./demo/app/shared/nav.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./demo/app/shared/nav.component.html":
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_NavComponent; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = View_NavComponent_0;
-/* unused harmony export View_NavComponent_Host_0 */
-/* unused harmony export NavComponentNgFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nav_component__ = __webpack_require__("./demo/app/shared/nav.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-
-var styles_NavComponent = [".github-corner[_ngcontent-%COMP%]:hover   .octo-arm[_ngcontent-%COMP%] {\n      animation: octocat-wave 560ms ease-in-out\n    }\n\n    @keyframes octocat-wave {\n      0%, 100% {\n        transform: rotate(0)\n      }\n      20%, 60% {\n        transform: rotate(-25deg)\n      }\n      40%, 80% {\n        transform: rotate(10deg)\n      }\n    }\n\n    @media (max-width: 500px) {\n      .github-corner[_ngcontent-%COMP%]:hover   .octo-arm[_ngcontent-%COMP%] {\n        animation: none\n      }\n\n      .github-corner[_ngcontent-%COMP%]   .octo-arm[_ngcontent-%COMP%] {\n        animation: octocat-wave 560ms ease-in-out\n      }\n    }"];
-var RenderType_NavComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 0, styles: styles_NavComponent, data: {} });
-
-function View_NavComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 42, "nav", [["class", "navbar navbar-expand-lg  navbar-dark bg-dark"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](2, 0, null, null, 39, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](4, 0, null, null, 10, "a", [["aria-label", "View source on Github"], ["class", "github-corner"], ["href", "https://github.com/dhilt/ngx-ui-scroll"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](6, 0, null, null, 7, ":svg:svg", [["aria-hidden", "true"], ["height", "80"], ["style", "fill:#fff; color:#343a40; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);"], ["viewBox", "0 0 250 250"], ["width", "80"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](8, 0, null, null, 0, ":svg:path", [["d", "M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](10, 0, null, null, 0, ":svg:path", [["class", "octo-arm"], ["d", "M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"], ["fill", "currentColor"], ["style", "transform-origin: 130px 106px;"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](12, 0, null, null, 0, ":svg:path", [["class", "octo-body"], ["d", "M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"], ["fill", "currentColor"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](17, 0, null, null, 12, "div", [["class", "mr-auto ml-2 ml-lg-0"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](19, 0, null, null, 1, "a", [["class", "navbar-brand"], ["href", "https://github.com/dhilt/ngx-ui-scroll"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["ngx-ui-scroll"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](22, 0, null, null, 2, "a", [["class", "navbar-link"], ["routerLink", "/"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 23).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](23, 671744, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_router__["m" /* RouterLinkWithHref */], [__WEBPACK_IMPORTED_MODULE_1__angular_router__["l" /* Router */], __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_2__angular_common__["g" /* LocationStrategy */]], { routerLink: [0, "routerLink"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Common"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](26, 0, null, null, 2, "a", [["class", "navbar-link"], ["routerLink", "/adapter"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (__WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 27).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](27, 671744, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_router__["m" /* RouterLinkWithHref */], [__WEBPACK_IMPORTED_MODULE_1__angular_router__["l" /* Router */], __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_2__angular_common__["g" /* LocationStrategy */]], { routerLink: [0, "routerLink"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Adapter"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](31, 0, null, null, 0, "br", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](33, 0, null, null, 7, "span", [["class", "copyrights"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n      2018 \u00A9 "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](35, 0, null, null, 1, "a", [["href", "https://github.com/dhilt"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["dhilt"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, [", "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](38, 0, null, null, 1, "a", [["href", "http://www.hill30.com/"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["Hill30 Inc"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_35" /* ɵted */](-1, null, ["\n"]))], function (_ck, _v) { var currVal_2 = "/"; _ck(_v, 23, 0, currVal_2); var currVal_5 = "/adapter"; _ck(_v, 27, 0, currVal_5); }, function (_ck, _v) { var currVal_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 23).target; var currVal_1 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 23).href; _ck(_v, 22, 0, currVal_0, currVal_1); var currVal_3 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 27).target; var currVal_4 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_28" /* ɵnov */](_v, 27).href; _ck(_v, 26, 0, currVal_3, currVal_4); }); }
-function View_NavComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "app-nav", [], null, null, null, View_NavComponent_0, RenderType_NavComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_3__nav_component__["a" /* NavComponent */], [], null, null)], null, null); }
-var NavComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("app-nav", __WEBPACK_IMPORTED_MODULE_3__nav_component__["a" /* NavComponent */], View_NavComponent_Host_0, {}, {}, []);
-
-
+module.exports = "<nav class=\"navbar navbar-expand-lg  navbar-dark bg-dark\">\r\n  <div class=\"container\">\r\n    <a href=\"https://github.com/dhilt/ngx-ui-scroll\" class=\"github-corner\" aria-label=\"View source on Github\">\r\n      <svg width=\"80\" height=\"80\" viewBox=\"0 0 250 250\"\r\n           style=\"fill:#fff; color:#343a40; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);\"\r\n           aria-hidden=\"true\">\r\n        <path d=\"M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z\"></path>\r\n        <path\r\n          d=\"M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2\"\r\n          fill=\"currentColor\" style=\"transform-origin: 130px 106px;\" class=\"octo-arm\"></path>\r\n        <path\r\n          d=\"M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z\"\r\n          fill=\"currentColor\" class=\"octo-body\"></path>\r\n      </svg>\r\n    </a>\r\n    <style>.github-corner:hover .octo-arm {\r\n      animation: octocat-wave 560ms ease-in-out\r\n    }\r\n\r\n    @keyframes octocat-wave {\r\n      0%, 100% {\r\n        transform: rotate(0)\r\n      }\r\n      20%, 60% {\r\n        transform: rotate(-25deg)\r\n      }\r\n      40%, 80% {\r\n        transform: rotate(10deg)\r\n      }\r\n    }\r\n\r\n    @media (max-width: 500px) {\r\n      .github-corner:hover .octo-arm {\r\n        animation: none\r\n      }\r\n\r\n      .github-corner .octo-arm {\r\n        animation: octocat-wave 560ms ease-in-out\r\n      }\r\n    }</style>\r\n    <div class=\"mr-auto ml-2 ml-lg-0\">\r\n    <a class=\"navbar-brand\" href=\"https://github.com/dhilt/ngx-ui-scroll\">ngx-ui-scroll</a>\r\n    <a class=\"navbar-link\" routerLink=\"/\">Common</a>\r\n    <a class=\"navbar-link\" routerLink=\"/adapter\">Adapter</a>\r\n  </div>\r\n    <br>\r\n    <span class=\"copyrights\">\r\n      2018 &copy; <a href=\"https://github.com/dhilt\">dhilt</a>, <a href=\"http://www.hill30.com/\">Hill30 Inc</a>\r\n    </span>\r\n  </div>\r\n</nav>\r\n"
 
 /***/ }),
 
@@ -1428,9 +1192,27 @@ var NavComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /*
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
 var NavComponent = /** @class */ (function () {
     function NavComponent() {
     }
+    NavComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-nav',
+            template: __webpack_require__("./demo/app/shared/nav.component.html")
+        }),
+        __metadata("design:paramtypes", [])
+    ], NavComponent);
     return NavComponent;
 }());
 
@@ -1460,17 +1242,17 @@ var environment = {
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__environments_environment__ = __webpack_require__("./demo/environments/environment.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module_ngfactory__ = __webpack_require__("./demo/app/app.module.ngfactory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("./node_modules/@angular/platform-browser-dynamic/esm5/platform-browser-dynamic.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__("./demo/app/app.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__("./demo/environments/environment.ts");
 
 
 
 
-if (__WEBPACK_IMPORTED_MODULE_1__environments_environment__["a" /* environment */].production) {
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* enableProdMode */])();
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* enableProdMode */])();
 }
-__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["i" /* platformBrowser */]().bootstrapModuleFactory(__WEBPACK_IMPORTED_MODULE_2__app_app_module_ngfactory__["a" /* AppModuleNgFactory */])
+Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */])
     .catch(function (err) { return console.log(err); });
 
 
@@ -1481,7 +1263,7 @@ __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["i" /* platformBrowser *
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_ui_scroll_module__ = __webpack_require__("./src/ui-scroll.module.ts");
-/* unused harmony reexport UiScrollModule */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_ui_scroll_module__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_component_classes_datasource__ = __webpack_require__("./src/component/classes/datasource.ts");
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_component_classes_datasource__["a"]; });
 
@@ -1747,18 +1529,15 @@ var Routines = /** @class */ (function () {
     function Routines(settings) {
         this.horizontal = settings.horizontal;
     }
-    Routines.prototype.getScrollable = function (element) {
-        return element instanceof Document ? element.scrollingElement : element;
-    };
     Routines.prototype.getScrollPosition = function (element) {
-        return this.getScrollable(element)[this.horizontal ? 'scrollLeft' : 'scrollTop'];
+        return element[this.horizontal ? 'scrollLeft' : 'scrollTop'];
     };
     Routines.prototype.setScrollPosition = function (element, value) {
-        this.getScrollable(element)[this.horizontal ? 'scrollLeft' : 'scrollTop'] = value;
+        element[this.horizontal ? 'scrollLeft' : 'scrollTop'] = value;
     };
     Routines.prototype.getParams = function (element) {
-        if (element instanceof Document) {
-            element = element.scrollingElement;
+        if (element.tagName.toLowerCase() === 'body') {
+            element = element.parentElement;
             return {
                 'height': element.clientHeight,
                 'width': element.clientWidth,
@@ -1778,9 +1557,6 @@ var Routines = /** @class */ (function () {
     };
     Routines.prototype.setSizeStyle = function (element, value) {
         element.style[this.horizontal ? 'width' : 'height'] = value + "px";
-    };
-    Routines.prototype.getScrollableSize = function (element) {
-        return this.getScrollable(element)[this.horizontal ? 'scrollWidth' : 'scrollHeight'];
     };
     Routines.prototype.getRectEdge = function (params, direction, opposite) {
         var forward = !opposite ? __WEBPACK_IMPORTED_MODULE_0__interfaces_direction__["a" /* Direction */].forward : __WEBPACK_IMPORTED_MODULE_0__interfaces_direction__["a" /* Direction */].backward;
@@ -1940,8 +1716,9 @@ var Padding = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
-    Padding.prototype.getEdge = function () {
-        return this.routines.getEdge(this.element, this.direction, true);
+    Padding.prototype.getEdge = function (opposite) {
+        if (opposite === void 0) { opposite = true; }
+        return this.routines.getEdge(this.element, this.direction, opposite);
     };
     return Padding;
 }());
@@ -1955,16 +1732,20 @@ var Padding = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScrollHelper; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interfaces_index__ = __webpack_require__("./src/component/interfaces/index.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_operators__ = __webpack_require__("./node_modules/rxjs/_esm5/operators.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__interfaces_index__ = __webpack_require__("./src/component/interfaces/index.ts");
+
 
 var ScrollHelper = /** @class */ (function () {
-    function ScrollHelper(scroller) {
-        this.scroller = scroller;
+    function ScrollHelper(workflow) {
+        this.workflow = workflow;
         this.lastScrollTime = 0;
         this.scrollTimer = null;
+        this.endSubscription = null;
     }
     ScrollHelper.prototype.run = function () {
-        var viewport = this.scroller.viewport;
+        var _this = this;
+        var viewport = this.workflow.scroller.viewport;
         if (viewport.syntheticScrollPosition === viewport.scrollPosition) {
             var ssp_1 = viewport.scrollPosition;
             setTimeout(function () {
@@ -1972,62 +1753,53 @@ var ScrollHelper = /** @class */ (function () {
                     viewport.syntheticScrollPosition = null;
                 }
             });
-            return true;
+            return;
         }
-        var direction;
-        if (!this.scroller.adapter.isLoading) {
-            direction = this.calculateFixedDirection();
-        }
-        else {
-            var diff = this.scroller.viewport.scrollPosition - this.lastScrollPosition;
-            if (!diff) {
-                return;
+        if (this.workflow.scroller.adapter.isLoading) {
+            if (!this.endSubscription) {
+                this.endSubscription = this.workflow.process$.pipe(Object(__WEBPACK_IMPORTED_MODULE_0_rxjs_operators__["a" /* filter */])(function (data) { return data.process === __WEBPACK_IMPORTED_MODULE_1__interfaces_index__["b" /* Process */].end && data.status === 'done'; })).subscribe(function () {
+                    _this.endSubscription.unsubscribe();
+                    _this.endSubscription = null;
+                    _this.run();
+                });
             }
-            direction = diff > 0 ? __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].forward : __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].backward;
+            return;
         }
-        this.throttledScroll(direction);
+        this.throttledScroll();
     };
-    ScrollHelper.prototype.calculateFixedDirection = function () {
-        var viewport = this.scroller.viewport;
-        var scrollPosition = viewport.scrollPosition;
-        var viewportSize = viewport.scrollable.scrollHeight;
-        var backwardPadding = viewport.padding[__WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].backward].size;
-        if (scrollPosition < backwardPadding || scrollPosition === 0) {
-            return __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].backward;
-        }
-        if (scrollPosition <= viewportSize - backwardPadding) {
-            var lastScrollPosition = viewport.getLastPosition();
-            if (lastScrollPosition < scrollPosition) {
-                return __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].forward;
-            }
-            else if (lastScrollPosition > scrollPosition) {
-                return __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].backward;
-            }
-        }
-        return __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].forward;
-    };
-    ScrollHelper.prototype.throttledScroll = function (direction) {
+    ScrollHelper.prototype.throttledScroll = function () {
         var _this = this;
-        var scroller = this.scroller;
+        var scroller = this.workflow.scroller;
         var diff = this.lastScrollTime + scroller.settings.throttle - Date.now();
         if (this.scrollTimer) {
             clearTimeout(this.scrollTimer);
+            this.scrollTimer = null;
         }
         if (diff < 0) {
-            scroller.callWorkflow({
-                process: __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["b" /* Process */].scroll,
-                status: 'start',
-                payload: direction
-            });
             this.lastScrollTime = Date.now();
             this.lastScrollPosition = scroller.viewport.scrollPosition;
+            this.processScroll();
         }
         else {
             this.scrollTimer = setTimeout(function () {
-                _this.throttledScroll(direction);
+                _this.run();
                 _this.scrollTimer = null;
             }, diff);
         }
+    };
+    ScrollHelper.prototype.processScroll = function () {
+        if (this.endSubscription) {
+            this.endSubscription.unsubscribe();
+            this.endSubscription = null;
+        }
+        if (this.scrollTimer) {
+            clearTimeout(this.scrollTimer);
+            this.scrollTimer = null;
+        }
+        this.workflow.callWorkflow({
+            process: __WEBPACK_IMPORTED_MODULE_1__interfaces_index__["b" /* Process */].scroll,
+            status: 'next'
+        });
     };
     return ScrollHelper;
 }());
@@ -2056,7 +1828,7 @@ var defaultSettings = {
 };
 var minSettings = {
     bufferSize: 1,
-    padding: 0.1
+    padding: 0.01
 };
 var defaultDevSettings = {
     debug: false,
@@ -2166,25 +1938,33 @@ var Viewport = /** @class */ (function () {
     function Viewport(elementRef, settings, routines) {
         this.settings = settings;
         this.routines = routines;
-        this.host = elementRef.nativeElement;
-        this.padding = new ViewportPadding(this.host, this.routines, settings);
+        this.element = elementRef.nativeElement;
+        this.padding = new ViewportPadding(this.element, this.routines, settings);
         this.syntheticScrollPosition = null;
         if (settings.windowViewport) {
-            this.scrollable = elementRef.nativeElement.ownerDocument;
+            this.host = this.element.ownerDocument.body;
+            this.scrollable = this.element.ownerDocument.scrollingElement;
         }
         else {
-            this.scrollable = elementRef.nativeElement.parentElement;
+            this.host = this.element.parentElement;
+            this.scrollable = this.element.parentElement;
         }
     }
     Viewport.prototype.reset = function () {
         this.scrollPosition = 0;
-        this.lastPosition = 0;
         this.syntheticScrollPosition = null;
         this.padding.reset();
     };
+    Object.defineProperty(Viewport.prototype, "scrollEventElement", {
+        get: function () {
+            return this.settings.windowViewport ? this.element.ownerDocument : this.host;
+        },
+        enumerable: true,
+        configurable: true
+    });
     Object.defineProperty(Viewport.prototype, "children", {
         get: function () {
-            return this.host.children;
+            return this.element.children;
         },
         enumerable: true,
         configurable: true
@@ -2195,27 +1975,19 @@ var Viewport = /** @class */ (function () {
         },
         set: function (value) {
             this.routines.setScrollPosition(this.scrollable, value);
+            this.syntheticScrollPosition = this.scrollPosition;
         },
         enumerable: true,
         configurable: true
     });
-    Viewport.prototype.saveScrollPosition = function () {
-        this.lastPosition = this.scrollPosition;
-    };
-    Viewport.prototype.getLastPosition = function () {
-        return this.lastPosition;
-    };
     Viewport.prototype.getSize = function () {
-        return this.routines.getSize(this.scrollable);
-    };
-    Viewport.prototype.getScrollableSize = function () {
-        return this.routines.getScrollableSize(this.scrollable);
+        return this.routines.getSize(this.host);
     };
     Viewport.prototype.getBufferPadding = function () {
         return this.getSize() * this.settings.padding;
     };
     Viewport.prototype.getEdge = function (direction, opposite) {
-        return this.routines.getEdge(this.scrollable, direction, opposite);
+        return this.routines.getEdge(this.host, direction, opposite);
     };
     Viewport.prototype.getLimit = function (direction, opposite) {
         return this.getEdge(direction, opposite) +
@@ -2327,14 +2099,17 @@ var Clip = /** @class */ (function () {
         scroller.viewport.padding[opposite].size += scroller.state.clip[direction].size;
     };
     Clip.processBuffer = function (scroller) {
+        var clipped = [];
         scroller.buffer.items = scroller.buffer.items.filter(function (item) {
             if (item.toRemove) {
                 scroller.buffer.cache.add(item);
                 item.hide();
+                clipped.push(item.$index);
                 return false;
             }
             return true;
         });
+        scroller.log("clipped " + clipped.length + " items", clipped);
         if (!scroller.buffer.size) {
             scroller.state.setPreviousClip();
         }
@@ -2366,15 +2141,15 @@ var End = /** @class */ (function () {
     End.run = function (scroller, isFail) {
         scroller.state.endCycle();
         scroller.adapter.isLoading = false;
-        scroller.viewport.saveScrollPosition();
         scroller.purgeCycleSubscriptions();
         scroller.finalize();
         var next;
+        var logData = scroller.settings.instanceIndex + "-" + scroller.state.cycleCount;
         if (isFail) {
-            scroller.log("---=== Workflow " + scroller.settings.instanceIndex + "-" + scroller.state.cycleCount + " fail");
+            scroller.log("%c---=== Workflow " + logData + " fail", 'color: #006600;');
         }
         else {
-            scroller.log("---=== Workflow " + scroller.settings.instanceIndex + "-" + scroller.state.cycleCount + " done");
+            scroller.log("%c---=== Workflow " + logData + " done", 'color: #006600;');
             next = End.getNextRun(scroller);
         }
         scroller.callWorkflow({
@@ -2401,7 +2176,7 @@ var End = /** @class */ (function () {
             scroller.state.isInitial = false;
             nextRun = {
                 direction: __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].backward,
-                scroll: false
+                scroll: scroller.state.scroll || false
             };
         }
         return nextRun;
@@ -2505,30 +2280,27 @@ var Fetch = /** @class */ (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__init__ = __webpack_require__("./src/component/processes/init.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__scroll__ = __webpack_require__("./src/component/processes/scroll.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reload__ = __webpack_require__("./src/component/processes/reload.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__start__ = __webpack_require__("./src/component/processes/start.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__preFetch__ = __webpack_require__("./src/component/processes/preFetch.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__fetch__ = __webpack_require__("./src/component/processes/fetch.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__postFetch__ = __webpack_require__("./src/component/processes/postFetch.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__render__ = __webpack_require__("./src/component/processes/render.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__postRender__ = __webpack_require__("./src/component/processes/postRender.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__preClip__ = __webpack_require__("./src/component/processes/preClip.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__clip__ = __webpack_require__("./src/component/processes/clip.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__end__ = __webpack_require__("./src/component/processes/end.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reload__ = __webpack_require__("./src/component/processes/reload.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__start__ = __webpack_require__("./src/component/processes/start.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__preFetch__ = __webpack_require__("./src/component/processes/preFetch.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fetch__ = __webpack_require__("./src/component/processes/fetch.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__postFetch__ = __webpack_require__("./src/component/processes/postFetch.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__render__ = __webpack_require__("./src/component/processes/render.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__postRender__ = __webpack_require__("./src/component/processes/postRender.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__preClip__ = __webpack_require__("./src/component/processes/preClip.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__clip__ = __webpack_require__("./src/component/processes/clip.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__end__ = __webpack_require__("./src/component/processes/end.ts");
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__init__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_1__scroll__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_2__reload__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_3__start__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_4__preFetch__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_5__fetch__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_6__postFetch__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_7__render__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_8__postRender__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_9__preClip__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_10__clip__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_11__end__["a"]; });
-
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_1__reload__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_2__start__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_3__preFetch__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_4__fetch__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_5__postFetch__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_6__render__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_7__postRender__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_8__preClip__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_9__clip__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_10__end__["a"]; });
 
 
 
@@ -2554,11 +2326,18 @@ var Fetch = /** @class */ (function () {
 var Init = /** @class */ (function () {
     function Init() {
     }
-    Init.run = function (scroller) {
+    Init.run = function (scroller, cyclesDone, isScroll) {
+        var logData = scroller.settings.instanceIndex + "-" + (cyclesDone + 1);
+        var logStyles = 'color: #0000aa; border: solid black 1px; border-width: 1px 0 0 1px; margin-left: -2px';
+        scroller.log("%c   ~~~ WF Run " + logData + " STARTED ~~~  ", logStyles);
         scroller.state.isInitial = true;
         scroller.callWorkflow({
             process: __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["b" /* Process */].init,
-            status: 'next'
+            status: 'next',
+            payload: {
+                direction: __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].forward,
+                scroll: !!isScroll
+            }
         });
     };
     return Init;
@@ -2634,15 +2413,32 @@ var PostRender = /** @class */ (function () {
     }
     PostRender.run = function (scroller) {
         scroller.state.process = __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["b" /* Process */].postRender;
+        var viewport = scroller.viewport;
         var direction = scroller.state.direction;
         var items = scroller.state.fetch[direction].items;
+        var position = viewport.scrollPosition;
         PostRender.processFetchedItems(items);
+        // pre-adjustment, scroll position only
+        if (position !== viewport.scrollPosition) {
+            viewport.scrollPosition = position;
+        }
+        // paddings and scroll position adjustments
         var height = Math.round(Math.abs(items[0].getEdge(__WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].backward) - items[items.length - 1].getEdge(__WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].forward)));
+        var syntheticScrollPosition = null;
         if (direction === __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["a" /* Direction */].forward) {
             PostRender.runForward(scroller, height);
         }
         else {
-            PostRender.runBackward(scroller, height);
+            syntheticScrollPosition = PostRender.runBackward(scroller, height);
+        }
+        // post-adjustment, scroll position only
+        if (position !== viewport.scrollPosition) {
+            if (syntheticScrollPosition !== null) {
+                viewport.scrollPosition += viewport.scrollPosition - syntheticScrollPosition;
+            }
+            else {
+                viewport.scrollPosition = position;
+            }
         }
         scroller.callWorkflow({
             process: __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["b" /* Process */].postRender,
@@ -2683,8 +2479,9 @@ var PostRender = /** @class */ (function () {
                 paddingForward.size = paddingSize + diff;
                 viewport.scrollPosition += diff;
             }
-            viewport.syntheticScrollPosition = viewport.scrollPosition;
+            return viewport.scrollPosition;
         }
+        return null;
     };
     return PostRender;
 }());
@@ -2868,6 +2665,7 @@ var Reload = /** @class */ (function () {
         scroller.purgeCycleSubscriptions();
         scroller.purgeScrollDelaySubscription();
         scroller.settings.setCurrentStartIndex(reloadIndex);
+        // todo: do we need to emit Process.end before?
         scroller.callWorkflow({
             process: __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["b" /* Process */].reload,
             status: 'next'
@@ -2929,46 +2727,6 @@ var Render = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/component/processes/scroll.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interfaces_index__ = __webpack_require__("./src/component/interfaces/index.ts");
-
-var Scroll = /** @class */ (function () {
-    function Scroll() {
-    }
-    Scroll.run = function (workflow, direction) {
-        var scroller = workflow.scroller;
-        if (!scroller.adapter.isLoading) {
-            Scroll.next(scroller, direction);
-        }
-        else if (!scroller.scrollDelaySubscription || scroller.scrollDelaySubscription.closed) {
-            scroller.scrollDelaySubscription = workflow.process$.subscribe(function (data) {
-                if (data.process === __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["b" /* Process */].end && data.status === 'done') {
-                    scroller.scrollDelaySubscription.unsubscribe();
-                    Scroll.next(scroller, direction);
-                }
-            });
-        }
-    };
-    Scroll.next = function (scroller, direction) {
-        scroller.callWorkflow({
-            process: __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["b" /* Process */].scroll,
-            status: 'next',
-            payload: {
-                scroll: true,
-                direction: direction
-            }
-        });
-    };
-    return Scroll;
-}());
-/* harmony default export */ __webpack_exports__["a"] = (Scroll);
-
-
-/***/ }),
-
 /***/ "./src/component/processes/start.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2985,7 +2743,8 @@ var Start = /** @class */ (function () {
         }
         scroller.state.startCycle(options);
         scroller.adapter.isLoading = true;
-        scroller.log("---=== Workflow " + scroller.settings.instanceIndex + "-" + scroller.state.cycleCount + " start", options);
+        var logData = scroller.settings.instanceIndex + "-" + scroller.state.cycleCount;
+        scroller.log("%c---=== Workflow " + logData + " start", 'color: #006600;', options);
         scroller.callWorkflow({
             process: __WEBPACK_IMPORTED_MODULE_0__interfaces_index__["b" /* Process */].start,
             status: 'next'
@@ -3111,9 +2870,6 @@ var Scroller = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return assignSettings; });
-/* unused harmony export ɵ0 */
-/* unused harmony export ɵ1 */
-/* unused harmony export ɵ2 */
 var assignBoolean = function (target, source, token, defaults) {
     var param = source[token];
     if (typeof param === 'undefined') {
@@ -3126,7 +2882,6 @@ var assignBoolean = function (target, source, token, defaults) {
     target[token] = param;
     return true;
 };
-var ɵ0 = assignBoolean;
 var assignNumeric = function (target, source, token, defaults, integer) {
     if (integer === void 0) { integer = false; }
     var param = source[token];
@@ -3144,7 +2899,6 @@ var assignNumeric = function (target, source, token, defaults, integer) {
     target[token] = param;
     return true;
 };
-var ɵ1 = assignNumeric;
 var assignMinimalNumeric = function (target, source, token, defaults, minSettings, integer) {
     if (integer === void 0) { integer = false; }
     if (assignNumeric(target, source, token, defaults, integer) !== true) {
@@ -3157,7 +2911,6 @@ var assignMinimalNumeric = function (target, source, token, defaults, minSetting
     }
     return true;
 };
-var ɵ2 = assignMinimalNumeric;
 var assignSettings = function (target, settings, defaults, minSettings) {
     Object.assign(target, defaults);
     if (typeof settings === 'undefined') {
@@ -3174,7 +2927,6 @@ var assignSettings = function (target, settings, defaults, minSettings) {
     assignBoolean(target, settings, 'horizontal', defaults);
     assignBoolean(target, settings, 'windowViewport', defaults);
 };
-
 
 
 /***/ }),
@@ -3238,7 +2990,7 @@ var Workflow = /** @class */ (function () {
         var _this = this;
         this.context = context;
         this.scroller = new __WEBPACK_IMPORTED_MODULE_1__scroller__["a" /* Scroller */](this.context, this.callWorkflow.bind(this));
-        this.scrollHelper = new __WEBPACK_IMPORTED_MODULE_2__classes_scrollHelper__["a" /* ScrollHelper */](this.scroller);
+        this.scrollHelper = new __WEBPACK_IMPORTED_MODULE_2__classes_scrollHelper__["a" /* ScrollHelper */](this);
         this.process$ = new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["a" /* BehaviorSubject */]({
             process: __WEBPACK_IMPORTED_MODULE_3__interfaces_index__["b" /* Process */].init,
             status: 'start'
@@ -3251,8 +3003,7 @@ var Workflow = /** @class */ (function () {
         var scroller = this.scroller;
         this.itemsSubscription = scroller.buffer.$items.subscribe(function (items) { return _this.context.items = items; });
         this.workflowSubscription = this.process$.subscribe(this.process.bind(this));
-        this.onScrollUnsubscribe =
-            this.context.renderer.listen(scroller.viewport.scrollable, 'scroll', this.scrollHelper.run.bind(this.scrollHelper));
+        this.onScrollUnsubscribe = this.context.renderer.listen(scroller.viewport.scrollEventElement, 'scroll', this.scrollHelper.run.bind(this.scrollHelper));
     };
     Workflow.prototype.dispose = function () {
         this.onScrollUnsubscribe();
@@ -3275,18 +3026,10 @@ var Workflow = /** @class */ (function () {
         switch (data.process) {
             case __WEBPACK_IMPORTED_MODULE_3__interfaces_index__["b" /* Process */].init:
                 if (data.status === 'start') {
-                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["d" /* Init */].run(scroller);
+                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["d" /* Init */].run(scroller, this.cyclesDone);
                 }
                 if (data.status === 'next') {
-                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["l" /* Start */].run(scroller);
-                }
-                break;
-            case __WEBPACK_IMPORTED_MODULE_3__interfaces_index__["b" /* Process */].scroll:
-                if (data.status === 'start') {
-                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["k" /* Scroll */].run(this, data.payload);
-                }
-                if (data.status === 'next') {
-                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["l" /* Start */].run(scroller, data.payload);
+                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["k" /* Start */].run(scroller, data.payload);
                 }
                 break;
             case __WEBPACK_IMPORTED_MODULE_3__interfaces_index__["b" /* Process */].reload:
@@ -3294,7 +3037,12 @@ var Workflow = /** @class */ (function () {
                     __WEBPACK_IMPORTED_MODULE_4__processes_index__["i" /* Reload */].run(scroller, data.payload);
                 }
                 if (data.status === 'next') {
-                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["d" /* Init */].run(scroller);
+                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["d" /* Init */].run(scroller, this.cyclesDone);
+                }
+                break;
+            case __WEBPACK_IMPORTED_MODULE_3__interfaces_index__["b" /* Process */].scroll:
+                if (data.status === 'next') {
+                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["d" /* Init */].run(scroller, this.cyclesDone, true);
                 }
                 break;
             case __WEBPACK_IMPORTED_MODULE_3__interfaces_index__["b" /* Process */].start:
@@ -3348,7 +3096,7 @@ var Workflow = /** @class */ (function () {
                 break;
             case __WEBPACK_IMPORTED_MODULE_3__interfaces_index__["b" /* Process */].end:
                 if (data.status === 'next') {
-                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["l" /* Start */].run(scroller, data.payload);
+                    __WEBPACK_IMPORTED_MODULE_4__processes_index__["k" /* Start */].run(scroller, data.payload);
                 }
                 if (data.status === 'done') {
                     this.done();
@@ -3358,46 +3106,15 @@ var Workflow = /** @class */ (function () {
     };
     Workflow.prototype.done = function () {
         this.cyclesDone++;
-        this.scroller.log("~~~~~~ WF Run " + this.scroller.settings.instanceIndex + "-" + this.cyclesDone + " FINALIZED ~~~~~~");
+        var logData = this.scroller.settings.instanceIndex + "-" + this.cyclesDone;
+        var logStyles = 'color: #0000aa; border: solid #555 1px; border-width: 0 0 1px 1px; margin-left: -2px';
+        this.scroller.log("%c   ~~~ WF Run " + logData + " FINALIZED ~~~  ", logStyles);
         this.finalize();
     };
     Workflow.prototype.finalize = function () {
     };
     return Workflow;
 }());
-
-
-
-/***/ }),
-
-/***/ "./src/ui-scroll.component.ngfactory.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export RenderType_UiScrollComponent */
-/* unused harmony export View_UiScrollComponent_0 */
-/* unused harmony export View_UiScrollComponent_Host_0 */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UiScrollComponentNgFactory; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ui_scroll_component__ = __webpack_require__("./src/ui-scroll.component.ts");
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-
-
-
-var styles_UiScrollComponent = [];
-var RenderType_UiScrollComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ɵcrt */]({ encapsulation: 2, styles: styles_UiScrollComponent, data: {} });
-
-function View_UiScrollComponent_2(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](0, null, null, 0))], null, null); }
-function View_UiScrollComponent_1(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 3, "div", [], [[1, "data-sid", 0], [4, "position", null], [4, "left", null]], null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](16777216, null, null, 2, null, View_UiScrollComponent_2)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](2, 540672, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_common__["m" /* NgTemplateOutlet */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */]], { ngTemplateOutletContext: [0, "ngTemplateOutletContext"], ngTemplateOutlet: [1, "ngTemplateOutlet"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_31" /* ɵpod */](3, { $implicit: 0, index: 1 })], function (_ck, _v) { var _co = _v.component; var currVal_3 = _ck(_v, 3, 0, _v.context.$implicit.data, _v.context.$implicit.$index); var currVal_4 = _co.template; _ck(_v, 2, 0, currVal_3, currVal_4); }, function (_ck, _v) { var currVal_0 = _v.context.$implicit.nodeId; var currVal_1 = (_v.context.$implicit.invisible ? "fixed" : null); var currVal_2 = (_v.context.$implicit.invisible ? "-99999px" : null); _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2); }); }
-function View_UiScrollComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](2, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 0, "div", [["data-padding-backward", ""]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ɵand */](16777216, null, null, 1, null, View_UiScrollComponent_1)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](2, 802816, null, 0, __WEBPACK_IMPORTED_MODULE_1__angular_common__["i" /* NgForOf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* TemplateRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* IterableDiffers */]], { ngForOf: [0, "ngForOf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](3, 0, null, null, 0, "div", [["data-padding-forward", ""]], null, null, null, null, null))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.items; _ck(_v, 2, 0, currVal_0); }, null); }
-function View_UiScrollComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_36" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ɵeld */](0, 0, null, null, 1, "div", [["ui-scroll", ""]], null, null, null, View_UiScrollComponent_0, RenderType_UiScrollComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ɵdid */](1, 245760, null, 0, __WEBPACK_IMPORTED_MODULE_2__ui_scroll_component__["a" /* UiScrollComponent */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* ChangeDetectorRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Renderer2 */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
-var UiScrollComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ɵccf */]("[ui-scroll]", __WEBPACK_IMPORTED_MODULE_2__ui_scroll_component__["a" /* UiScrollComponent */], View_UiScrollComponent_Host_0, {}, {}, []);
 
 
 
@@ -3410,6 +3127,15 @@ var UiScrollComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_1
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UiScrollComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__component_workflow__ = __webpack_require__("./src/component/workflow.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 var UiScrollComponent = /** @class */ (function () {
@@ -3424,6 +3150,16 @@ var UiScrollComponent = /** @class */ (function () {
     UiScrollComponent.prototype.ngOnDestroy = function () {
         this.workflow.dispose();
     };
+    UiScrollComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: '[ui-scroll]',
+            changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectionStrategy */].OnPush,
+            template: "<div data-padding-backward></div><div\n  *ngFor=\"let item of items\"\n  [attr.data-sid]=\"item.nodeId\"\n  [style.position]=\"item.invisible ? 'fixed' : null\"\n  [style.left]=\"item.invisible ? '-99999px' : null\"\n><ng-template\n  [ngTemplateOutlet]=\"template\"\n  [ngTemplateOutletContext]=\"{\n    $implicit: item.data,\n    index: item.$index\n }\"\n></ng-template></div><div data-padding-forward></div>"
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["k" /* ChangeDetectorRef */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* Renderer2 */]])
+    ], UiScrollComponent);
     return UiScrollComponent;
 }());
 
@@ -3438,6 +3174,15 @@ var UiScrollComponent = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UiScrollDirective; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ui_scroll_component__ = __webpack_require__("./src/ui-scroll.component.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 var UiScrollDirective = /** @class */ (function () {
@@ -3460,6 +3205,17 @@ var UiScrollDirective = /** @class */ (function () {
         componentRef.instance.datasource = this.datasource;
         componentRef.instance.template = this.templateRef;
     };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], UiScrollDirective.prototype, "uiScrollOf", null);
+    UiScrollDirective = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* Directive */])({ selector: '[uiScroll][uiScrollOf]' }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* TemplateRef */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ViewContainerRef */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */]])
+    ], UiScrollDirective);
     return UiScrollDirective;
 }());
 
@@ -3472,9 +3228,35 @@ var UiScrollDirective = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UiScrollModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ui_scroll_component__ = __webpack_require__("./src/ui-scroll.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ui_scroll_directive__ = __webpack_require__("./src/ui-scroll.directive.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
 var UiScrollModule = /** @class */ (function () {
     function UiScrollModule() {
     }
+    UiScrollModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__ui_scroll_component__["a" /* UiScrollComponent */],
+                __WEBPACK_IMPORTED_MODULE_3__ui_scroll_directive__["a" /* UiScrollDirective */]
+            ],
+            imports: [__WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */]],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_2__ui_scroll_component__["a" /* UiScrollComponent */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_3__ui_scroll_directive__["a" /* UiScrollDirective */]],
+            providers: []
+        })
+    ], UiScrollModule);
     return UiScrollModule;
 }());
 
