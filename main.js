@@ -1323,8 +1323,10 @@ var TestComponent = /** @class */ (function () {
     }
     TestComponent.prototype.getVisibleItemsCount = function () {
         var adapter = this.datasource.adapter;
-        var last = (adapter.lastVisible && adapter.lastVisible.$index) || NaN;
-        var first = (adapter.firstVisible && adapter.firstVisible.$index) || NaN;
+        var last = adapter.lastVisible.$index;
+        last = Number.isInteger(last) ? last : NaN;
+        var first = adapter.firstVisible.$index;
+        first = Number.isInteger(first) ? first : NaN;
         return (Number.isNaN(last) || Number.isNaN(first)) ? 0 : last - first + 1;
     };
     TestComponent.prototype.doReload = function () {
