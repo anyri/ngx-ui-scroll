@@ -2154,18 +2154,9 @@ var Routines = /** @class */ (function () {
     Routines.prototype.setScrollPosition = function (element, value) {
         element[this.horizontal ? 'scrollLeft' : 'scrollTop'] = value;
     };
-    Routines.getWindowParam = function (horizontal) {
-        var innerParam = horizontal ? 'innerWidth' : 'innerHeight';
-        var clientParam = horizontal ? 'clientWidth' : 'clientHeight';
-        return window[innerParam] && document.documentElement[clientParam] ?
-            Math.min(window[innerParam], document.documentElement[clientParam]) :
-            window[innerParam] ||
-                document.documentElement[clientParam] ||
-                document.getElementsByTagName('body')[0][clientParam];
-    };
     Routines.getWindowParams = function () {
-        var width = Routines.getWindowParam(true);
-        var height = Routines.getWindowParam(false);
+        var width = window.innerWidth;
+        var height = window.innerHeight;
         return {
             'height': height,
             'width': width,
