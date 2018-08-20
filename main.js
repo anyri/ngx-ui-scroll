@@ -2154,19 +2154,31 @@ var Routines = /** @class */ (function () {
     Routines.prototype.setScrollPosition = function (element, value) {
         element[this.horizontal ? 'scrollLeft' : 'scrollTop'] = value;
     };
+    Routines.getWindowParam = function (horizontal) {
+        var innerParam = horizontal ? 'innerWidth' : 'innerHeight';
+        var clientParam = horizontal ? 'clientWidth' : 'clientHeight';
+        return window[innerParam] && document.documentElement[clientParam] ?
+            Math.min(window[innerParam], document.documentElement[clientParam]) :
+            window[innerParam] ||
+                document.documentElement[clientParam] ||
+                document.getElementsByTagName('body')[0][clientParam];
+    };
+    Routines.getWindowParams = function () {
+        var width = Routines.getWindowParam(true);
+        var height = Routines.getWindowParam(false);
+        return {
+            'height': height,
+            'width': width,
+            'top': 0,
+            'bottom': height,
+            'left': 0,
+            'right': width
+        };
+    };
     Routines.prototype.getParams = function (element) {
-        if (element.tagName.toLowerCase() === 'body') {
-            element = element.parentElement;
-            return {
-                'height': element.clientHeight,
-                'width': element.clientWidth,
-                'top': element.clientTop,
-                'bottom': element.clientTop + element.clientHeight,
-                'left': element.clientLeft,
-                'right': element.clientLeft + element.clientWidth
-            };
-        }
-        return element.getBoundingClientRect();
+        return element.tagName.toLowerCase() === 'body' ?
+            Routines.getWindowParams() :
+            element.getBoundingClientRect();
     };
     Routines.prototype.getSize = function (element) {
         return this.getParams(element)[this.horizontal ? 'width' : 'height'];
@@ -4132,7 +4144,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/dhilt/Dev/ngx-ui-scroll/demo/main.ts */"./demo/main.ts");
+module.exports = __webpack_require__(/*! D:\github\dhilt\ngx-ui-scroll\ngx-ui-scroll\demo\main.ts */"./demo/main.ts");
 
 
 /***/ })

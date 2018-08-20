@@ -539,7 +539,7 @@ module.exports = function (css) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/dhilt/Dev/ngx-ui-scroll/demo/styles.css */"./demo/styles.css");
+module.exports = __webpack_require__(/*! D:\github\dhilt\ngx-ui-scroll\ngx-ui-scroll\demo\styles.css */"./demo/styles.css");
 
 
 /***/ })

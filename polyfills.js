@@ -8483,7 +8483,7 @@ Zone.__load_patch('PromiseRejectionEvent', function (global, Zone) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/dhilt/Dev/ngx-ui-scroll/demo/polyfills.ts */"./demo/polyfills.ts");
+module.exports = __webpack_require__(/*! D:\github\dhilt\ngx-ui-scroll\ngx-ui-scroll\demo\polyfills.ts */"./demo/polyfills.ts");
 
 
 /***/ })
